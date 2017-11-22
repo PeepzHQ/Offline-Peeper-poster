@@ -6,7 +6,7 @@
   </a>
 
   <a href="https://github.com/World-wd/Offline-Peeper-poster/graphs/contributors" target="_blank">
-    <img src="https://img.shields.io/github/contributors/ghosh/uigradients.svg" alt="Contributors">
+    <img src="https://img.shields.io/github/contributors/World-wd/Offline-Peeper-poster.svg" alt="Contributors">
   </a>
 </p>
 
