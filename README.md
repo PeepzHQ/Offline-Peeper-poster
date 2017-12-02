@@ -22,3 +22,4 @@ With Offline Peeper poster app, you can write posts and save them to your disk.
 Download the Construct 2 engine, and open the .capx project from the source folder.
 
 # Donation
+Bitcoin: [1FSPGi1VyvpCGPgk2P8RJUMYQxFRMaccXC](bitcoin://1FSPGi1VyvpCGPgk2P8RJUMYQxFRMaccXC)
