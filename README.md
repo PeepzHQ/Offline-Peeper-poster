@@ -1,18 +1,10 @@
 # Offline-Peeper-poster
 
-<p align="center">
-  <a href="#">
-    <img src="https://img.shields.io/badge/made%20with-love-E760A4.svg" alt="Made with love">
-  </a>
-
-  <a href="https://github.com/World-wd/Offline-Peeper-poster/graphs/contributors" target="_blank">
-    <img src="https://img.shields.io/github/contributors/World-wd/Offline-Peeper-poster.svg" alt="Contributors">
-  </a>
-</p>
-
 [![Github Version][gh-image]][gh-url]
+[![Github Contributors][contributors-image]][contributors-url]
 [![License][license-image]][license-url]
 [![Github Downloads][downloads-image]][downloads-url]
+[![Made with love](https://img.shields.io/badge/made%20with-love-E760A4.svg)]()
 
 No Internet connection? Don't want to publish now? Draft posts for Peeper!
 
