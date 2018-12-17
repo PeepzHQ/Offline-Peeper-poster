@@ -1,0 +1,59 @@
+* New post background for future preview mode
+* Disable post background feature if in future previw mode
+* Merged the 2 "Mode" labels
+* Moved up the "Mode" label
+* Moved up the post mode buttons
+* Changed "Post mode" icon
+* Repositioned "Photo mode" icon
+* Repositioned "Future preview mode" icon
+* Swapped "Attach" and "Background" sections
+* Rebranded UI
+* Repositioned "Post" button
+* AppBar and StatusBar
+* SVG instead of PNG icon
+* Resized "Post mode" label
+* Stamp app's version in post
+* Custom button design in browser error page
+* Custom background color in browser error page
+* Moved text in browser error page
+* Moved button in browser error page
+* App icon in browser error page
+* App link in browser error page
+
+* "Beta" label
+About menu
+can post photos from storage
+* Post background icons as HTML
+post background icons with effects
+can post photos from a URL
+can post photos to imgur
+Custom post colors/gradients/backgrounds
+Frameless window
+icon in posts count
+Roboto font
+active effect in post backgrounds
+autosave in statusbar
+settings page
+settings: autosave
+multilanguage posts
+shows error if can't write post to the disk
+shows error if web storage isn't available
+character count
+
+Offline Peeper profiler
+
+
+active effect in post field
+effects in button and field
+Material Icons
+HTML in post mode/attach
+Peep mode
+change text size accourding charcount
+tooltips
+
+detect if no web storage but peeper folder exists
+can delete posts
+
+Save posts count in file (Peeper/posts/count.txt) instead of Web Storage (to make the Peeper folder portable)
+
+https://mobile.twitter.com/SMizaraite
