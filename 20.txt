@@ -1,24 +1,25 @@
-* Background-selector in HTML
-* Moved app version to header
-* "Attach" in HTML
-* New post-background: Moonlit Asteroid
-* New post-background: Cool Sky
-* New post-background: Yoda
-* New post-background: Amin
-* Slider on background-selector
+* Don't change post background after posting a future insight
+* Quote/phrase mode
+* Clear post before showing the posted alert
+* New icon for post button
+* New icon for future preview button
+* Bold weight for post mode text
+* Peep mode
 
-
-
-
-when in other mode, hide backgroundselector
+when in other mode (post, phrase, future), hide backgroundselector
 HTML header
-* "Beta" label
+"Beta" label
+prevent duplicate post
+post bg from IP
+change text size accourding charcount
+progressbar about peep character limit
+
+https://github.com/Orkutter/Offline-Peeper-poster/issues/6
 About menu
 license
 detect if no web storage but peeper folder exists
 post count from folder instead of localstorage
 can post photos from storage
-post background icons with effects
 can post photos from a URL
 can post photos to imgur
 Custom post colors/gradients/backgrounds
@@ -31,10 +32,9 @@ autosave in statusbar
 settings page
 settings: autosave
 multilanguage posts
+
 shows error if can't write post to the disk
 shows error if web storage isn't available
-character count
-Peep mode
 
 Offline Peeper profiler
 
@@ -42,8 +42,7 @@ Offline Peeper profiler
 active effect in post field
 effects in button and field
 Material Icons
-HTML in post mode/attach
-change text size accourding charcount
+HTML in post mode
 tooltips
 
 can delete posts
@@ -51,3 +50,5 @@ can delete posts
 Save posts count in file (Peeper/posts/count.txt) instead of Web Storage (to make the Peeper folder portable)
 
 https://mobile.twitter.com/SMizaraite
+
+https://uigradients.com/
