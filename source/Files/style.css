@@ -1,0 +1,93 @@
+body {font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;-webkit-font-smoothing:antialiased;
+}
+#splash{-webkit-app-region:drag;user-select:none;cursor:default;background:rgb(237, 37, 144)!important;color:#FFFFFF}
+#splash img{-webkit-user-drag:none;user-drag:none}
+#splash, #html{background: rgb(239, 239, 239);top: 0px!important;left: 0px!important;position: absolute!important;width: calc(100% + 0px) !important;height: calc(100% + 0px) !important;overflow: hidden!important;}
+#logo{border-radius:50%;border: 7px solid #fff;margin-top:45px}
+#logotext{font-size:30px}
+.statusbar {
+width: 100%;
+padding: 3px;
+background: rgb(237, 37, 144);
+position: absolute;
+bottom: -20px;
+color: #fff;
+}
+.postbtn {
+    width: 124px;
+    height: 52px;
+    font-size: 0.8em;
+    font-weight: bold;
+    border-radius: 5px;
+    background: rgb(237, 37, 144);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(68, 68, 68);
+    float: right
+}
+.postbtn:hover {
+border-width: 5px
+}
+.postdisabled {
+    width: 124px;
+    height: 52px;
+    font-size: 0.8em;
+    font-weight: bold;
+    border-radius: 5px;
+    background: rgba(237, 37, 144, 0.5);
+    color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(68, 68, 68, 0.5);
+    float: right
+}
+#backgroundselector {
+margin: 8px;
+padding: 8px
+}
+.label {
+    float: left;
+    margin-right: 5px;
+    font-size: 18pt;
+    color: #ED2590;
+}
+.postbgbutton {
+    width: 28px;
+    height: 28px;
+    border-radius: 10px;
+    border: 1px solid #444;
+    float: left;
+    margin-right: 5px;
+}
+.postbgbutton:hover {box-shadow: 0 -1px 9px 1px #2196F3;}
+.postbgbutton:active {
+    box-shadow: inset 0 -8px 27px -4px #fff;
+}
+.postbgbutton.selected {
+    box-shadow: 0 11px 5px -3px #00BCD4;
+}
+#bg-politics{
+background: #2196f3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f44336, #2196f3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f44336, #2196f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */}
+#bg-sweetmorning{
+background: #FF5F6D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */}
+#bg-sylvia{
+background: #ff4b1f;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ff9068, #ff4b1f);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ff9068, #ff4b1f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */}
+#bg-moonlitasteroid{
+background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */}
+#bg-coolsky{
+background: #2980B9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */}
+#bg-yoda{
+background: #FF0099;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #493240, #FF0099);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #493240, #FF0099); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */}
+#bg-amin{
+background: #8E2DE2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */}

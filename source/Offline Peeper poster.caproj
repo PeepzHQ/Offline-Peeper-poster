@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>Offline Peeper poster</name>
+    <description>No Internet connection? Don&apos;t want to publish now? Draft posts for Peeper! With Offline Peeper poster app, you can write posts and save them to your disk.</description>
+    <version>1.1.8.2</version>
+    <author>Daniell Mesquita</author>
+    <author-email>plasmmer@outlook.com</author-email>
+    <author-website>http://</author-website>
+    <app-id>com.peeper.offlineposter</app-id>
+    <unique-id>2qnkevc090jfj</unique-id>
+    <saved-with-version>24400</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="AJAX" version="1">AJAX</plugin>
+        <plugin author="Pinco, Scirra" id="AdvTextBox" version="1.700000048">Advanced Text box</plugin>
+        <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
+        <plugin author="Scirra" id="Geolocation" version="1">Geolocation</plugin>
+        <plugin author="PlayLive" id="HTML_iFrame" version="1.419999957">HTML | iFrame</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="List" version="1">List</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="{{author}}" id="NodeDownloader" version="1">{{fname}}</plugin>
+        <plugin author="JPDeblonde" id="SVGCanvas" version="1.110000014">SVG Canvas</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+        <plugin author="Zack0Wack0/Scirra" id="WebStorage" version="1">WebStorage</plugin>
+        <plugin author="Armaldio" id="armaldio_electron" version="1">Electron</plugin>
+        <plugin author="Scirra" id="filechooser" version="1">File chooser</plugin>
+        <plugin author="Rex.Rainbow" id="rex_googlemap_api" version="0.100000001">Google map api</plugin>
+    </used-plugins>
+    <used-behaviors />
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>854</width>
+        <height>480</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <first-layout>Splash</first-layout>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Crop</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">Custom</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="OfflinePeeperPosts" sid="969394564836050">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TextBox" sid="164980190624479">
+            <plugin id="TextBox" />
+        </object-type>
+        <object-type name="WebStorage" sid="944377409377177">
+            <plugin id="WebStorage" />
+        </object-type>
+        <object-type name="Browser" sid="253128174598976">
+            <plugin id="Browser" />
+        </object-type>
+        <object-type name="Version" sid="943100520411305">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Keyboard" sid="221960711525992">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="Touch" sid="210982382012935">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="Geolocation" sid="893937133810531">
+            <plugin id="Geolocation" />
+        </object-type>
+        <object-type name="OK" sid="933929578677952">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Text2" sid="640049434173663">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Mouse" sid="560811244115183">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="quote" sid="947823739651011">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="123680400263385" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Notebook Positivo\Desktop\quote.png">
+                        <collision-poly>
+                            <point x="0.173913" y="0.181818" />
+                            <point x="0.5" y="0.113636" />
+                            <point x="0.804348" y="0.204545" />
+                            <point x="0.847826" y="0.5" />
+                            <point x="0.804348" y="0.795455" />
+                            <point x="0.5" y="0.886364" />
+                            <point x="0.173913" y="0.818182" />
+                            <point x="0.130435" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="photo2" sid="795734454582106">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="649747495167866" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.506173" original-source="C:\Users\Daniell\Desktop\t.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="AJAX" sid="737047919143483">
+            <plugin id="AJAX" />
+        </object-type>
+        <object-type name="fname" sid="264113283187359">
+            <plugin id="NodeDownloader" />
+        </object-type>
+        <object-type name="post" sid="864689727611178">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="437956396213530" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Notebook Positivo\Desktop\post.png">
+                        <collision-poly>
+                            <point x="0.173913" y="0.181818" />
+                            <point x="0.5" y="0" />
+                            <point x="0.826087" y="0.181818" />
+                            <point x="0.826087" y="0.818182" />
+                            <point x="0.5" y="1" />
+                            <point x="0.173913" y="0.818182" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mode_selector" sid="570680510856847">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="346551279517898" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Daniell\Desktop\t.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="future" sid="135100659384982">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="150989910163186" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Notebook Positivo\Desktop\future.png">
+                        <collision-poly>
+                            <point x="0.347826" y="0.363636" />
+                            <point x="0.5" y="0" />
+                            <point x="0.673913" y="0.340909" />
+                            <point x="1" y="0.5" />
+                            <point x="0.673913" y="0.659091" />
+                            <point x="0.5" y="1" />
+                            <point x="0.326087" y="0.659091" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mode" sid="276663865276808">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Icon" sid="468408062432014">
+            <plugin id="SVGCanvas" />
+        </object-type>
+        <object-type name="AppBar" sid="541721851201251">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Daniell\Desktop\t.png" />
+        </object-type>
+        <object-type name="UI" sid="759609697939421">
+            <plugin id="HTML_iFrame" />
+        </object-type>
+        <object-type name="AppLink" sid="202819336834831">
+            <plugin id="HTML_iFrame" />
+        </object-type>
+        <object-type name="FileChooser" sid="467175895877500">
+            <plugin id="filechooser" />
+        </object-type>
+        <object-type name="ChooseFile" sid="642122431632346">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="GoogleMapApi" sid="319410871404652">
+            <plugin id="rex_googlemap_api" />
+        </object-type>
+        <object-type name="Quote_Author" sid="278427119679026">
+            <plugin id="List" />
+        </object-type>
+        <object-type name="Text3" sid="782953242153553">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Phrase_Author" sid="349475848226580">
+            <plugin id="AdvTextBox" />
+        </object-type>
+        <object-type name="Text4" sid="220331682116534">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="peep" sid="826032552061365">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="952373902020415" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Notebook Positivo\Desktop\peep.png">
+                        <collision-poly>
+                            <point x="0.23913" y="0.25" />
+                            <point x="0.5" y="0.204545" />
+                            <point x="0.76087" y="0.25" />
+                            <point x="0.804348" y="0.5" />
+                            <point x="0.782609" y="0.772727" />
+                            <point x="0.5" y="0.818182" />
+                            <point x="0.217391" y="0.772727" />
+                            <point x="0.195652" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Electron" sid="777039990252746">
+            <plugin id="armaldio_electron" />
+        </object-type>
+        <object-type name="Splash" sid="674425312924066">
+            <plugin id="HTML_iFrame" />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Layout 0.xml</layout>
+        <layout>App.xml</layout>
+        <layout>Splash.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>App sheet.xml</event-sheet>
+        <event-sheet>Event sheet 0.xml</event-sheet>
+        <event-sheet>Splash sheet.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="WebStorage" uid="4" />
+        <global-instance type="Browser" uid="5" />
+        <global-instance type="Keyboard" uid="8" />
+        <global-instance type="Touch" uid="10">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+        <global-instance type="Geolocation" uid="11" />
+        <global-instance type="Mouse" uid="17" />
+        <global-instance type="AJAX" uid="24" />
+        <global-instance type="fname" uid="25" />
+        <global-instance type="GoogleMapApi" uid="9">
+            <properties>
+                <initial-loading>No</initial-loading>
+                <api-key></api-key>
+                <language-code></language-code>
+                <api-url>maps.googleapis.com</api-url>
+            </properties>
+        </global-instance>
+        <global-instance type="Electron" uid="37" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+        <file name="futurepreview.png" />
+        <file name="style.css" />
+        <file name="geo.png" />
+        <file name="slick.css" />
+        <file name="slick.min.js" />
+        <file name="script.js" />
+        <file name="1.11.0.min.js" />
+        <file name="slick-theme.css" />
+        <file name="img.png" />
+        <file name="quotes.png" />
+        <file name="robotofont.css" />
+        <file name="roboto-cyrillic.woff2" />
+        <file name="roboto-cyrillicext.woff2" />
+        <file name="roboto-greek.woff2" />
+        <file name="roboto-greekext.woff2" />
+        <file name="roboto-latin.woff2" />
+        <file name="roboto-latinext.woff2" />
+        <file name="roboto-vietnamese.woff2" />
+        <file name="font.css" />
+        <file name="font.eot" />
+        <file name="font.ttf" />
+        <file name="font.woff" />
+        <file name="font.woff2" />
+        <file name="iconsfont.css" />
+        <file name="loading.gif" />
+        <file name="logo.svg" />
+        <file name="dark-common.css" />
+        <file name="page-custom.css" />
+        <file name="bootstrap.min.js" />
+        <file name="material.min.js" />
+        <file name="material.min.css" />
+        <file name="app-custom.css" />
+    </files-folder>
+</c2project>

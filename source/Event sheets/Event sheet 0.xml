@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 0</name>
+    <events>
+        <comment>Sets custom design to button.</comment>
+        <event-block sid="462434414816802">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="102205546510496" type="System" />
+            </conditions>
+            <actions>
+                <action id="5" name="Set CSS style" sid="133951268794155" type="OK">
+                    <param id="0" name="Property name">&quot;background&quot;</param>
+                    <param id="1" name="Value">&quot;#ED2590&quot;</param>
+                </action>
+                <action id="5" name="Set CSS style" sid="417213479952380" type="OK">
+                    <param id="0" name="Property name">&quot;color&quot;</param>
+                    <param id="1" name="Value">&quot;#fff&quot;</param>
+                </action>
+                <action id="5" name="Set CSS style" sid="499976963106401" type="OK">
+                    <param id="0" name="Property name">&quot;font-weight&quot;</param>
+                    <param id="1" name="Value">&quot;bold&quot;</param>
+                </action>
+                <action id="5" name="Set CSS style" sid="446894323213912" type="OK">
+                    <param id="0" name="Property name">&quot;border&quot;</param>
+                    <param id="1" name="Value">&quot;1px solid #444&quot;</param>
+                </action>
+                <action id="5" name="Set CSS style" sid="455676069839798" type="OK">
+                    <param id="0" name="Property name">&quot;border-radius&quot;</param>
+                    <param id="1" name="Value">&quot;5px&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <comment>Mouse over effect in button.</comment>
+        <event-block sid="346356694684682">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="832273735127681" type="Mouse">
+                    <param id="0" name="Object">OK</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set CSS style" sid="192272286475999" type="OK">
+                    <param id="0" name="Property name">&quot;border-width&quot;</param>
+                    <param id="1" name="Value">&quot;5px&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="780249310770340">
+            <conditions>
+                <condition id="-22" name="Else" sid="602024032528794" type="System" />
+            </conditions>
+            <actions>
+                <action id="5" name="Set CSS style" sid="666770409786598" type="OK">
+                    <param id="0" name="Property name">&quot;border-width&quot;</param>
+                    <param id="1" name="Value">&quot;1px&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <comment>Closes the tab when clicked the button.</comment>
+        <event-block sid="577595313460794">
+            <conditions>
+                <condition id="0" name="On clicked" sid="326212008246126" type="OK" />
+            </conditions>
+            <actions>
+                <action id="1" name="Close" sid="245835348470010" type="Browser" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

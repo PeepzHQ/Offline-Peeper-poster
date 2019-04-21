@@ -1,0 +1,1705 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>App sheet</name>
+    <events>
+        <comment>Post count.</comment>
+        <variable constant="0" name="post" sid="632532128692132" static="0" type="number">0</variable>
+        <comment>Boolean (0 or 1): defines if fullscreen mode is off or on.</comment>
+        <variable constant="0" name="fullscreen" sid="913255359186914" static="0" type="number">0</variable>
+        <comment>Defines if the &lt;author&gt; tag is available to be inserted in current post.</comment>
+        <variable constant="0" name="PhraseAuthor" sid="909702935798242" static="0" type="text"></variable>
+        <comment>Defines if the &lt;geo-latitude&gt; tag is available to be inserted in current post.</comment>
+        <variable constant="0" name="geo" sid="864477754552727" static="0" type="text"></variable>
+        <comment>Stores the geolocalization&apos;s location.</comment>
+        <variable constant="0" name="location" sid="920352495259237" static="0" type="text"></variable>
+        <comment>Boolean (0 or 1): forces the &quot;Post&quot; button to be disabled.</comment>
+        <variable constant="0" name="DisablePost" sid="776985675697556" static="0" type="number">0</variable>
+        <comment>Stores the post mode.</comment>
+        <variable constant="0" name="Mode" sid="874031230918981" static="0" type="number">3</variable>
+        <event-group description="" sid="954263250653269" title="Start">
+            <sub-events>
+                <comment>When starts the app: shows the version, sets location empty in statusbar and sets post field/button&apos;s style.</comment>
+                <event-block sid="769095851832564">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="301771672625335" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="29" name="Set Size" sid="330679929807619" type="Electron">
+                            <param id="0" name="Width">854</param>
+                            <param id="1" name="Height">480</param>
+                            <param id="2" name="Animated">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="662266054615134" type="Version">
+                            <param id="0" name="Text">&quot;Version: &quot; &amp; projectversion</param>
+                        </action>
+                        <action id="7" name="Set CSS style" sid="654771609882080" type="TextBox">
+                            <param id="0" name="Property name">&quot;border&quot;</param>
+                            <param id="1" name="Value">&quot;1px solid #444&quot;</param>
+                        </action>
+                        <action id="7" name="Set CSS style" sid="952171616097844" type="TextBox">
+                            <param id="0" name="Property name">&quot;border-radius&quot;</param>
+                            <param id="1" name="Value">&quot;5px&quot;</param>
+                        </action>
+                        <action id="19" name="Include Javascript file" sid="603293271142829" type="UI">
+                            <param id="0" name="Javascript file">&quot;1.11.0.min.js&quot;</param>
+                        </action>
+                        <action id="2" name="Import CSS file" sid="291599510866830" type="UI">
+                            <param id="0" name="CSS file">&quot;slick.css&quot;</param>
+                        </action>
+                        <action id="2" name="Import CSS file" sid="266139721886730" type="UI">
+                            <param id="0" name="CSS file">&quot;slick-theme.css&quot;</param>
+                        </action>
+                        <action id="19" name="Include Javascript file" sid="389859583052696" type="UI">
+                            <param id="0" name="Javascript file">&quot;slick.min.js&quot;</param>
+                        </action>
+                        <action id="19" name="Include Javascript file" sid="555276640831229" type="UI">
+                            <param id="0" name="Javascript file">&quot;script.js&quot;</param>
+                        </action>
+                        <action id="2" name="Import CSS file" sid="296308950082250" type="UI">
+                            <param id="0" name="CSS file">&quot;style.css&quot;</param>
+                        </action>
+                        <action id="2" name="Import CSS file" sid="901112441406608" type="UI">
+                            <param id="0" name="CSS file">&quot;page-common.css&quot;</param>
+                        </action>
+                        <action id="2" name="Import CSS file" sid="104127645718576" type="UI">
+                            <param id="0" name="CSS file">&quot;page-custom.css&quot;</param>
+                        </action>
+                        <action id="2" name="Import CSS file" sid="334125868780022" type="UI">
+                            <param id="0" name="CSS file">&quot;app-common.css&quot;</param>
+                        </action>
+                        <action id="2" name="Import CSS file" sid="317115815220472" type="UI">
+                            <param id="0" name="CSS file">&quot;app-custom.css&quot;</param>
+                        </action>
+                        <action disabled="1" id="2" name="Import CSS file" sid="976790610813099" type="UI">
+                            <param id="0" name="CSS file">&quot;dark-common.css&quot;</param>
+                        </action>
+                        <action id="19" name="Include Javascript file" sid="262757227112248" type="UI">
+                            <param id="0" name="Javascript file">&quot;bootstrap.min.js&quot;</param>
+                        </action>
+                        <action id="19" name="Include Javascript file" sid="831898733595312" type="UI">
+                            <param id="0" name="Javascript file">&quot;material.min.js&quot;</param>
+                        </action>
+                        <action id="2" name="Import CSS file" sid="908760736925278" type="UI">
+                            <param id="0" name="CSS file">&quot;material.min.css&quot;</param>
+                        </action>
+                        <action id="2" name="Import CSS file" sid="270689258050831" type="UI">
+                            <param id="0" name="CSS file">&quot;robotofont.css&quot;</param>
+                        </action>
+                        <action id="2" name="Import CSS file" sid="348338019077384" type="UI">
+                            <param id="0" name="CSS file">&quot;iconsfont.css&quot;</param>
+                        </action>
+                        <action id="7" name="Append HTML" sid="519784406349185" type="UI">
+                            <param id="0" name="Append HTML">&quot;&lt;div id=postbtncontainer&gt;&lt;/div&gt;&lt;span class=label&gt;Background: &lt;/span&gt; &lt;div class=backgroundselector&gt;&lt;div style=background:#fff class=postbgbutton title=White alt=White onclick=C2(&apos;bg-white&apos;);&gt;&lt;/div&gt;&lt;div class=postbgbutton id=bg-politics title=Politics alt=Politics onclick=C2(&apos;bg-politics&apos;);&gt;&lt;/div&gt;&lt;div class=postbgbutton id=bg-sweetmorning title=Sweet_Morning alt=Sweet_Morning onclick=C2(&apos;bg-sweetmorning&apos;);&gt;&lt;/div&gt;&lt;div class=postbgbutton id=bg-sylvia title=Sylvia alt=Sylvia onclick=C2(&apos;bg-sylvia&apos;);&gt;&lt;/div&gt;&lt;div class=postbgbutton id=bg-moonlitasteroid title=Moonlit_Asteroid alt=Moonlit_Asteroid onclick=C2(&apos;bg-moonlitasteroid&apos;);&gt;&lt;/div&gt;&lt;div class=postbgbutton id=bg-coolsky title=Cool_Sky alt=Cool_Sky onclick=C2(&apos;bg-coolsky&apos;);&gt;&lt;/div&gt;&lt;div class=postbgbutton id=bg-yoda title=Yoda alt=Yoda onclick=C2(&apos;bg-yoda&apos;);&gt;&lt;/div&gt;&lt;div class=postbgbutton id=bg-amin title=Amin alt=Amin onclick=C2(&apos;bg-amin&apos;);&gt;&lt;/div&gt;&lt;div/&gt;&quot;</param>
+                        </action>
+                        <action id="7" name="Append HTML" sid="406761177122580" type="UI">
+                            <param id="0" name="Append HTML">&quot;&lt;br/&gt;&lt;br/&gt;&lt;span class=label&gt;Attach: &lt;/span&gt; &lt;img width=28px src=geo.png title=Location alt=Location onclick=C2(&apos;geo&apos;);&gt; &lt;img width=28px src=img.png title=Image alt=Image onclick=C2(&apos;img&apos;);&gt;&lt;div class=statusbar&gt;&lt;span id=appstatus style=float:left&gt;&lt;/span&gt;&lt;span id=postscount style=float:right&gt;&lt;/span&gt;&lt;/div&gt;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="453789554606577" type="System">
+                            <param id="0" name="Seconds">dt</param>
+                        </action>
+                        <action id="24" name="Get elements" sid="601207775907501" type="UI">
+                            <param id="0" name="ID/Class">&quot;#postscount&quot;</param>
+                            <param id="1" name="Set">&quot;&lt;i class=material-icons&gt;description&lt;/i&gt; Posts: &quot; &amp; post</param>
+                            <param id="2" name="Append">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <comment>If post&apos;s background data isn&apos;t empty in Web Storage, loads it.</comment>
+                        <event-block sid="315279017537253">
+                            <conditions>
+                                <condition id="6" inverted="1" name="Compare key value (as text)" sid="809568285604708" type="WebStorage">
+                                    <param id="0" name="Key">&quot;postbackground&quot;</param>
+                                    <param id="1" name="Text to compare">&quot;&quot;</param>
+                                    <param id="2" name="Case sensitivity">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="7" name="Set CSS style" sid="746736567067834" type="TextBox">
+                                    <param id="0" name="Property name">&quot;background&quot;</param>
+                                    <param id="1" name="Value">WebStorage.LocalValue(&quot;postbackground&quot;)</param>
+                                </action>
+                                <action id="14" name="Log" sid="837547446782342" type="Browser">
+                                    <param id="0" name="Type">0</param>
+                                    <param id="1" name="Message">&quot;Loaded post&apos;s background from Web Storage.&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <comment>If post&apos;s color data isn&apos;t empty in Web Storage, loads it.</comment>
+                        <event-block sid="177758768947393">
+                            <conditions>
+                                <condition id="6" inverted="1" name="Compare key value (as text)" sid="850204224652222" type="WebStorage">
+                                    <param id="0" name="Key">&quot;postcolor&quot;</param>
+                                    <param id="1" name="Text to compare">&quot;&quot;</param>
+                                    <param id="2" name="Case sensitivity">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="7" name="Set CSS style" sid="680781871632866" type="TextBox">
+                                    <param id="0" name="Property name">&quot;color&quot;</param>
+                                    <param id="1" name="Value">WebStorage.LocalValue(&quot;postcolor&quot;)</param>
+                                </action>
+                                <action id="14" name="Log" sid="798308971063998" type="Browser">
+                                    <param id="0" name="Type">0</param>
+                                    <param id="1" name="Message">&quot;Loaded post&apos;s color from Web Storage.&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <comment>If post&apos;s location data isn&apos;t empty in Web Storage, loads it.</comment>
+                        <event-block sid="584518334194665">
+                            <conditions>
+                                <condition id="6" inverted="1" name="Compare key value (as text)" sid="301637597204713" type="WebStorage">
+                                    <param id="0" name="Key">&quot;location&quot;</param>
+                                    <param id="1" name="Text to compare">&quot;&quot;</param>
+                                    <param id="2" name="Case sensitivity">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="164995405275613" type="System">
+                                    <param id="0" name="Variable">location</param>
+                                    <param id="1" name="Value">WebStorage.LocalValue(&quot;location&quot;)</param>
+                                </action>
+                                <action id="14" name="Log" sid="734493886009016" type="Browser">
+                                    <param id="0" name="Type">0</param>
+                                    <param id="1" name="Message">&quot;Loaded post&apos;s location from Web Storage.&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <comment>If post&apos;s location tag data isn&apos;t empty in Web Storage, loads it.</comment>
+                        <event-block sid="850624530385566">
+                            <conditions>
+                                <condition id="6" inverted="1" name="Compare key value (as text)" sid="444028131672721" type="WebStorage">
+                                    <param id="0" name="Key">&quot;geo&quot;</param>
+                                    <param id="1" name="Text to compare">&quot;&quot;</param>
+                                    <param id="2" name="Case sensitivity">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="285656897360068" type="System">
+                                    <param id="0" name="Variable">geo</param>
+                                    <param id="1" name="Value">WebStorage.LocalValue(&quot;geo&quot;)</param>
+                                </action>
+                                <action id="14" name="Log" sid="745574084203570" type="Browser">
+                                    <param id="0" name="Type">0</param>
+                                    <param id="1" name="Message">&quot;Loaded post&apos;s location tag from Web Storage.&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <comment>If Web Storage says here are posts: load post count from WebStorage and shows it in the app.</comment>
+                        <event-block sid="458823126527313">
+                            <conditions>
+                                <condition id="3" name="Local key exists" sid="800329214140405" type="WebStorage">
+                                    <param id="0" name="Key">&quot;post&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Wait" sid="255183475498442" type="System">
+                                    <param id="0" name="Seconds">0.1</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="562128254166359" type="System">
+                                    <param id="0" name="Variable">post</param>
+                                    <param id="1" name="Value">WebStorage.LocalValue(&quot;post&quot;)</param>
+                                </action>
+                                <action id="14" name="Log" sid="696138666996264" type="Browser">
+                                    <param id="0" name="Type">0</param>
+                                    <param id="1" name="Message">&quot;Loaded post data from Web Storage.&quot;</param>
+                                </action>
+                                <action id="24" name="Get elements" sid="332813419027860" type="UI">
+                                    <param id="0" name="ID/Class">&quot;#postscount&quot;</param>
+                                    <param id="1" name="Set">&quot;&lt;i class=material-icons&gt;description&lt;/i&gt; Posts: &quot; &amp; post</param>
+                                    <param id="2" name="Append">&quot;&quot;</param>
+                                </action>
+                                <action id="14" name="Log" sid="627066234660454" type="Browser">
+                                    <param id="0" name="Type">0</param>
+                                    <param id="1" name="Message">&quot;Posts currently saved: &quot; &amp; post</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <comment>If no posts in Web Storage: start creating the app folders.</comment>
+                        <event-block sid="139143200811547">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="323786393839913" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="17" name="Create folder" sid="412616934365052" type="Electron">
+                                    <param id="0" name="Path">&quot;C:\Peeper&quot;</param>
+                                </action>
+                                <action id="14" name="Log" sid="687694928108842" type="Browser">
+                                    <param id="0" name="Type">0</param>
+                                    <param id="1" name="Message">&quot;Created C:\Peeper folder.&quot;</param>
+                                </action>
+                                <action id="17" name="Create folder" sid="664413285759138" type="Electron">
+                                    <param id="0" name="Path">&quot;C:\Peeper\posts&quot;</param>
+                                </action>
+                                <action id="14" name="Log" sid="631176844817114" type="Browser">
+                                    <param id="0" name="Type">0</param>
+                                    <param id="1" name="Message">&quot;Created C:\Peeper\posts folder.&quot;</param>
+                                </action>
+                                <action id="17" name="Create folder" sid="268626903972052" type="Electron">
+                                    <param id="0" name="Path">&quot;C:\Peeper\posts\.folderdata&quot;</param>
+                                </action>
+                                <action id="14" name="Log" sid="569538430030631" type="Browser">
+                                    <param id="0" name="Type">0</param>
+                                    <param id="1" name="Message">&quot;Created C:\Peeper\posts\.folderdata folder.&quot;</param>
+                                </action>
+                                <action id="17" name="Create folder" sid="502982584010368" type="Electron">
+                                    <param id="0" name="Path">&quot;C:\Peeper\posts\.folderdata\empty&quot;</param>
+                                </action>
+                                <action id="14" name="Log" sid="414365418560191" type="Browser">
+                                    <param id="0" name="Type">0</param>
+                                    <param id="1" name="Message">&quot;Created C:\Peeper\posts\.folderdata\empty folder.&quot;</param>
+                                </action>
+                                <action id="0" name="Write" sid="599991728869388" type="Electron">
+                                    <param id="0" name="Tag">&quot;&quot;</param>
+                                    <param id="1" name="Path">&quot;C:\Peeper\posts\.folderdata\empty\index.html&quot;</param>
+                                    <param id="2" name="Data">&quot;&lt;html lang=en-US&gt;&lt;head&gt;&lt;style&gt;body{background:#009688;color:#fff}&#x0D;&#x0A;/* file size: 17.2ko | optimized file size: 16.6ko | base64 size: 22.2ko */&#x0D;&#x0A;.corgi-300px {&#x0D;&#x0A;&#x09;width:300px; height:277px; background-image: url(data:image/png;base64,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);&lt;/style&gt;&lt;/head&gt;&#x0D;&#x0A;    &lt;body&gt;&#x0D;&#x0A;        &lt;center&gt;&lt;h1&gt;Oh, no posts are here!&lt;/h1&gt;&lt;div class=corgi-300px&gt;&lt;/div&gt;&#x0D;&#x0A;&lt;h4&gt;Open the Offline Peeper poster app and start your first post.&lt;/h4&gt;&lt;/center&gt;&#x0D;&#x0A;&lt;/body&gt;&lt;/html&gt;&quot;</param>
+                                    <param id="3" name="Encoding Mode">0</param>
+                                </action>
+                                <action id="14" name="Log" sid="135220708121916" type="Browser">
+                                    <param id="0" name="Type">0</param>
+                                    <param id="1" name="Message">&quot;Created C:\Peeper\posts\.folderdata\empty\index.html file.&quot;</param>
+                                </action>
+                                <action id="14" name="Log" sid="460390274399173" type="Browser">
+                                    <param id="0" name="Type">0</param>
+                                    <param id="1" name="Message">&quot;Its your first time using Peeper. Welcome! Successfully created the folder C:\Peeper. Your posts will be in Peeper\posts.&quot;</param>
+                                </action>
+                                <action id="0" name="Alert" sid="559935906720828" type="Browser">
+                                    <param id="0" name="Message">&quot;Its your first time using Peeper. Welcome! Successfully created the folder C:\Peeper. Your posts will be in Peeper\posts.&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <comment>Recovers in-draft post when starting the app.</comment>
+                        <event-block sid="824315493067540">
+                            <conditions>
+                                <condition id="6" inverted="1" name="Compare key value (as text)" sid="770685129733508" type="WebStorage">
+                                    <param id="0" name="Key">&quot;draftpost&quot;</param>
+                                    <param id="1" name="Text to compare">&quot;&quot;</param>
+                                    <param id="2" name="Case sensitivity">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Alert" sid="841037163723872" type="Browser">
+                                    <param id="0" name="Message">&quot;The app was closed while tipping, and the draft was successfully recovered&quot;</param>
+                                </action>
+                                <action id="14" name="Log" sid="196754892859829" type="Browser">
+                                    <param id="0" name="Type">1</param>
+                                    <param id="1" name="Message">&quot;The app was closed while tipping, and the draft was successfully recovered&quot;</param>
+                                </action>
+                                <action id="0" name="Set text" sid="118424983148387" type="TextBox">
+                                    <param id="0" name="Text">WebStorage.LocalValue(&quot;draftpost&quot;)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="202986557223945">
+                            <conditions>
+                                <condition id="6" inverted="1" name="Compare key value (as text)" sid="112657999280102" type="WebStorage">
+                                    <param id="0" name="Key">&quot;postmode&quot;</param>
+                                    <param id="1" name="Text to compare">&quot;&quot;</param>
+                                    <param id="2" name="Case sensitivity">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="949660612419486" type="System">
+                                    <param id="0" name="Variable">Mode</param>
+                                    <param id="1" name="Value">WebStorage.LocalValue(&quot;postmode&quot;)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="860919914837718">
+                            <conditions>
+                                <condition id="6" inverted="1" name="Compare key value (as text)" sid="126797066196479" type="WebStorage">
+                                    <param id="0" name="Key">&quot;draftpostsize&quot;</param>
+                                    <param id="1" name="Text to compare">&quot;&quot;</param>
+                                    <param id="2" name="Case sensitivity">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="7" name="Set CSS style" sid="623219955937868" type="TextBox">
+                                    <param id="0" name="Property name">&quot;text-size&quot;</param>
+                                    <param id="1" name="Value">WebStorage.LocalValue(&quot;draftpostsize&quot;)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <comment>Web Storage says there are posts but Peeper folder is missing, resets Web Storage and creates it again.</comment>
+                        <event-block sid="773810195624115">
+                            <conditions>
+                                <condition id="6" inverted="1" name="Path exists" sid="161185612899893" type="Electron">
+                                    <param id="0" name="Path">&quot;C:\Peeper&quot;</param>
+                                </condition>
+                                <condition id="3" name="Local key exists" sid="587461236974577" type="WebStorage">
+                                    <param id="0" name="Key">&quot;post&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="674095076351977" type="System">
+                                    <param id="0" name="Variable">post</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="0" name="Set local value" sid="618504537532211" type="WebStorage">
+                                    <param id="0" name="Key">&quot;post&quot;</param>
+                                    <param id="1" name="Value">&quot;0&quot;</param>
+                                </action>
+                                <action id="24" name="Get elements" sid="432400072917313" type="UI">
+                                    <param id="0" name="ID/Class">&quot;#postscount&quot;</param>
+                                    <param id="1" name="Set">&quot;&lt;i class=material-icons&gt;description&lt;/i&gt; Posts: &quot; &amp; post</param>
+                                    <param id="2" name="Append">&quot;&quot;</param>
+                                </action>
+                                <action id="14" name="Log" sid="405832385840972" type="Browser">
+                                    <param id="0" name="Type">0</param>
+                                    <param id="1" name="Message">&quot;Posts currently saved: &quot; &amp; post</param>
+                                </action>
+                                <action id="17" name="Create folder" sid="789835765239633" type="Electron">
+                                    <param id="0" name="Path">&quot;C:\Peeper&quot;</param>
+                                </action>
+                                <action id="14" name="Log" sid="780240181396549" type="Browser">
+                                    <param id="0" name="Type">0</param>
+                                    <param id="1" name="Message">&quot;Created C:\Peeper folder.&quot;</param>
+                                </action>
+                                <action id="17" name="Create folder" sid="616798537168812" type="Electron">
+                                    <param id="0" name="Path">&quot;C:\Peeper\posts&quot;</param>
+                                </action>
+                                <action id="14" name="Log" sid="223236011363391" type="Browser">
+                                    <param id="0" name="Type">0</param>
+                                    <param id="1" name="Message">&quot;Created C:\Peeper\posts folder.&quot;</param>
+                                </action>
+                                <action id="17" name="Create folder" sid="160250302006797" type="Electron">
+                                    <param id="0" name="Path">&quot;C:\Peeper\posts\.folderdata&quot;</param>
+                                </action>
+                                <action id="14" name="Log" sid="508173683352326" type="Browser">
+                                    <param id="0" name="Type">0</param>
+                                    <param id="1" name="Message">&quot;Created C:\Peeper\posts\.folderdata folder.&quot;</param>
+                                </action>
+                                <action id="17" name="Create folder" sid="182326621232946" type="Electron">
+                                    <param id="0" name="Path">&quot;C:\Peeper\posts\.folderdata\empty&quot;</param>
+                                </action>
+                                <action id="14" name="Log" sid="643648148631291" type="Browser">
+                                    <param id="0" name="Type">0</param>
+                                    <param id="1" name="Message">&quot;Created C:\Peeper\posts\.folderdata\empty folder.&quot;</param>
+                                </action>
+                                <action id="0" name="Write" sid="612069205124501" type="Electron">
+                                    <param id="0" name="Tag">&quot;&quot;</param>
+                                    <param id="1" name="Path">&quot;C:\Peeper\posts\.folderdata\empty\index.html&quot;</param>
+                                    <param id="2" name="Data">&quot;&lt;html lang=en-US&gt;&lt;head&gt;&lt;style&gt;body{background:#009688;color:#fff}&#x0D;&#x0A;/* file size: 17.2ko | optimized file size: 16.6ko | base64 size: 22.2ko */&#x0D;&#x0A;.corgi-300px {&#x0D;&#x0A;&#x09;width:300px; height:277px; background-image: url(data:image/png;base64,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);&lt;/style&gt;&lt;/head&gt;&#x0D;&#x0A;    &lt;body&gt;&#x0D;&#x0A;        &lt;center&gt;&lt;h1&gt;Oh, no posts are here!&lt;/h1&gt;&lt;div class=corgi-300px&gt;&lt;/div&gt;&#x0D;&#x0A;&lt;h4&gt;Open the Offline Peeper poster app and start your first post.&lt;/h4&gt;&lt;/center&gt;&#x0D;&#x0A;&lt;/body&gt;&lt;/html&gt;&quot;</param>
+                                    <param id="3" name="Encoding Mode">0</param>
+                                </action>
+                                <action id="14" name="Log" sid="586841339102800" type="Browser">
+                                    <param id="0" name="Type">0</param>
+                                    <param id="1" name="Message">&quot;Created C:\Peeper\posts\.folderdata\empty\index.html file.&quot;</param>
+                                </action>
+                                <action id="14" name="Log" sid="740807597648021" type="Browser">
+                                    <param id="0" name="Type">0</param>
+                                    <param id="1" name="Message">&quot;Peeper folder is missing. But as the good app I&apos;m: successfully created again the folder C:\Peeper. Your posts will be in Peeper\posts.&quot;</param>
+                                </action>
+                                <action id="0" name="Alert" sid="127589534299724" type="Browser">
+                                    <param id="0" name="Message">&quot;Peeper folder is missing. But as the good app I&apos;m: successfully created again the folder C:\Peeper. Your posts will be in Peeper\posts.&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="384572336115666" title="Post">
+            <sub-events>
+                <comment>When clicked in &quot;Post&quot; button or pressed &quot;P&quot; keyboard shortcut: shows the saving post status, defines the number of post, saves the post count in Web Storage, create a folder for the post and writes the file of the post.</comment>
+                <event-block sid="998853004472404">
+                    <conditions>
+                        <condition id="3" name="On C2 Function" sid="667891912747408" type="UI" />
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="501622303476448">
+                            <conditions>
+                                <condition id="4" name="Compare C2 Function" sid="787207434738468" type="UI">
+                                    <param id="0" name="C2">&quot;post&quot;</param>
+                                    <param id="1" name="Case">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="24" name="Get elements" sid="878895779848182" type="UI">
+                                    <param id="0" name="ID/Class">&quot;#postscount&quot;</param>
+                                    <param id="1" name="Set">&quot;&lt;i class=material-icons&gt;hourglass_empty&lt;/i&gt; Saving post....&quot;</param>
+                                    <param id="2" name="Append">&quot;&quot;</param>
+                                </action>
+                                <action id="14" name="Log" sid="712060351315279" type="Browser">
+                                    <param id="0" name="Type">0</param>
+                                    <param id="1" name="Message">&quot;Saving post..&quot;</param>
+                                </action>
+                                <action id="-10" name="Add to" sid="132039102861372" type="System">
+                                    <param id="0" name="Variable">post</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="525906194188111" type="System">
+                                    <param id="0" name="Seconds">0.1</param>
+                                </action>
+                                <action id="0" name="Set local value" sid="485039300915919" type="WebStorage">
+                                    <param id="0" name="Key">&quot;post&quot;</param>
+                                    <param id="1" name="Value">post</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="305830260791135" type="System">
+                                    <param id="0" name="Seconds">0.1</param>
+                                </action>
+                                <action id="17" name="Create folder" sid="822802797471337" type="Electron">
+                                    <param id="0" name="Path">&quot;C:\Peeper\posts\&quot; &amp; post</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="701104423183506" type="System">
+                                    <param id="0" name="Seconds">0.1</param>
+                                </action>
+                                <action id="0" name="Write" sid="734189843696940" type="Electron">
+                                    <param id="0" name="Tag">&quot;&quot;</param>
+                                    <param id="1" name="Path">&quot;C:\Peeper\posts\&quot; &amp; post &amp; &quot;\content.xml&quot;</param>
+                                    <param id="2" name="Data">&quot;&lt;mode&gt;&quot; &amp; Mode &amp; &quot;&lt;/mode&gt;&quot; &amp;&quot;&lt;timestamp&gt;&quot; &amp; Browser.ExecJS(&quot;Date()&quot;) &amp; &quot;&lt;/timestamp&gt;&quot; &amp;  &quot;&lt;text&gt;&quot; &amp; TextBox.Text &amp; &quot;&lt;/text&gt;&quot; &amp; &quot;&lt;via&gt;Offline Peeper poster app &quot; &amp; projectversion &amp; &quot;&lt;/via&gt;&quot; &amp; geo &amp; &quot;&lt;background&gt;&quot; &amp; WebStorage.LocalValue(&quot;postbackground&quot;) &amp; &quot;&lt;/background&gt;&quot; &amp; &quot;&lt;color&gt;&quot; &amp; WebStorage.LocalValue(&quot;postcolor&quot;) &amp; &quot;&lt;/color&gt;&quot; &amp; PhraseAuthor</param>
+                                    <param id="3" name="Encoding Mode">0</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <comment>Confirms if the post is already saved into disk. Then shows status/messages, empty the post field and resets his location/background, resets Web Storage that contains post&apos;s background/color/location data and shows post count in statusbar.</comment>
+                                <event-block sid="125681546489141">
+                                    <conditions>
+                                        <condition id="6" name="Path exists" sid="196808038730394" type="Electron">
+                                            <param id="0" name="Path">&quot;C:\Peeper\posts\&quot; &amp; post</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-16" name="Wait" sid="230026905287576" type="System">
+                                            <param id="0" name="Seconds">0.1</param>
+                                        </action>
+                                        <action id="24" name="Get elements" sid="986749629049284" type="UI">
+                                            <param id="0" name="ID/Class">&quot;#postscount&quot;</param>
+                                            <param id="1" name="Set">&quot;&lt;i class=material-icons&gt;check_circle&lt;/i&gt; Saved!&quot;</param>
+                                            <param id="2" name="Append">&quot;&quot;</param>
+                                        </action>
+                                        <action id="0" name="Set text" sid="913888880711144" type="TextBox">
+                                            <param id="0" name="Text">&quot;&quot;</param>
+                                        </action>
+                                        <action id="0" name="Alert" sid="442292777535770" type="Browser">
+                                            <param id="0" name="Message">&quot;Post &quot; &amp; post &amp; &quot; successfully saved!&quot;</param>
+                                        </action>
+                                        <action id="14" name="Log" sid="343608352393283" type="Browser">
+                                            <param id="0" name="Type">0</param>
+                                            <param id="1" name="Message">&quot;Post &quot; &amp; post &amp; &quot; successfully saved!&quot;</param>
+                                        </action>
+                                        <action id="0" name="Set local value" sid="992953404546733" type="WebStorage">
+                                            <param id="0" name="Key">&quot;draftpost&quot;</param>
+                                            <param id="1" name="Value">&quot;&quot;</param>
+                                        </action>
+                                        <action id="0" name="Set local value" sid="445663153300930" type="WebStorage">
+                                            <param id="0" name="Key">&quot;draftpostsize&quot;</param>
+                                            <param id="1" name="Value">&quot;&quot;</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="782063239775970" type="System">
+                                            <param id="0" name="Variable">location</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="0" name="Set local value" sid="381327428728753" type="WebStorage">
+                                            <param id="0" name="Key">&quot;location&quot;</param>
+                                            <param id="1" name="Value">&quot;&quot;</param>
+                                        </action>
+                                        <action id="0" name="Set local value" sid="164233612064419" type="WebStorage">
+                                            <param id="0" name="Key">&quot;geo&quot;</param>
+                                            <param id="1" name="Value">&quot;&quot;</param>
+                                        </action>
+                                        <action id="-16" name="Wait" sid="783042763827101" type="System">
+                                            <param id="0" name="Seconds">dt</param>
+                                        </action>
+                                        <action id="24" name="Get elements" sid="134152071822297" type="UI">
+                                            <param id="0" name="ID/Class">&quot;#postscount&quot;</param>
+                                            <param id="1" name="Set">&quot;&lt;i class=material-icons&gt;description&lt;/i&gt; Posts: &quot; &amp; post</param>
+                                            <param id="2" name="Append">&quot;&quot;</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <comment>Don&apos;t reset the background if on quote/phrase or future insight mode.</comment>
+                                <event-block sid="779657103942904">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="223695219088981" type="System">
+                                            <param id="0" name="Variable">Mode</param>
+                                            <param id="1" name="Comparison">1</param>
+                                            <param id="2" name="Value">2</param>
+                                        </condition>
+                                        <condition id="-14" name="Compare variable" sid="382507480083729" type="System">
+                                            <param id="0" name="Variable">Mode</param>
+                                            <param id="1" name="Comparison">1</param>
+                                            <param id="2" name="Value">6</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="7" name="Set CSS style" sid="866812466054399" type="TextBox">
+                                            <param id="0" name="Property name">&quot;background&quot;</param>
+                                            <param id="1" name="Value">&quot;#fff&quot;</param>
+                                        </action>
+                                        <action id="7" name="Set CSS style" sid="809919554742010" type="TextBox">
+                                            <param id="0" name="Property name">&quot;color&quot;</param>
+                                            <param id="1" name="Value">&quot;#000&quot;</param>
+                                        </action>
+                                        <action id="0" name="Set local value" sid="861439192199474" type="WebStorage">
+                                            <param id="0" name="Key">&quot;postbackground&quot;</param>
+                                            <param id="1" name="Value">&quot;#fff&quot;</param>
+                                        </action>
+                                        <action id="0" name="Set local value" sid="726146354198575" type="WebStorage">
+                                            <param id="0" name="Key">&quot;postcolor&quot;</param>
+                                            <param id="1" name="Value">&quot;#000&quot;</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <comment>If post field is empty: shows a tooltip, resets Web Storage about draftpost, and makes &quot;Post&quot; button disabled.</comment>
+                <event-block sid="181951988821574">
+                    <conditions>
+                        <condition id="0" name="Compare text" sid="908987054232782" type="TextBox">
+                            <param id="0" name="Text">&quot;&quot;</param>
+                            <param id="1" name="Case">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set tooltip" sid="606303331010576" type="TextBox">
+                            <param id="0" name="Tooltip">&quot;Click here and start tipping your post&quot;</param>
+                        </action>
+                        <action id="0" name="Set local value" sid="213279309514271" type="WebStorage">
+                            <param id="0" name="Key">&quot;draftpost&quot;</param>
+                            <param id="1" name="Value">&quot;&quot;</param>
+                        </action>
+                        <action id="0" name="Set local value" sid="594705686981827" type="WebStorage">
+                            <param id="0" name="Key">&quot;draftpostsize&quot;</param>
+                            <param id="1" name="Value">&quot;&quot;</param>
+                        </action>
+                        <action id="24" name="Get elements" sid="406349959296763" type="UI">
+                            <param id="0" name="ID/Class">&quot;#postbtncontainer&quot;</param>
+                            <param id="1" name="Set">&quot;&lt;input class=postdisabled type=button value=Post title=Write some content before posting&gt;&quot;</param>
+                            <param id="2" name="Append">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <comment>Else and if &quot;Post&quot; button is forced to disable by global value: shows tooltip and makes &quot;Post&quot; button enabled.</comment>
+                <event-block sid="340335637271003">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="830064580684448" type="System" />
+                        <condition id="-14" name="Compare variable" sid="624463289237755" type="System">
+                            <param id="0" name="Variable">DisablePost</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="133264108589646" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set tooltip" sid="436137721379956" type="TextBox">
+                            <param id="0" name="Tooltip">&quot;Click in &apos;&apos;Post&apos;&apos; when done writting&quot;</param>
+                        </action>
+                        <action id="24" name="Get elements" sid="616990514324040" type="UI">
+                            <param id="0" name="ID/Class">&quot;#postbtncontainer&quot;</param>
+                            <param id="1" name="Set">&quot;&lt;input class=postbtn type=button value=Post title=If your post is done, click here to post/save it to your disk onclick=C2(&apos;post&apos;);&gt;&quot;</param>
+                            <param id="2" name="Append">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <comment>Every 2 seconds: saves the post as draft to prevent data loss when closing the app.</comment>
+                        <event-block sid="765619165439739">
+                            <conditions>
+                                <condition id="-6" name="Every X seconds" sid="581340262912911" type="System">
+                                    <param id="0" name="Interval (seconds)">2.0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set local value" sid="396798284219252" type="WebStorage">
+                                    <param id="0" name="Key">&quot;draftpost&quot;</param>
+                                    <param id="1" name="Value">TextBox.Text</param>
+                                </action>
+                                <action id="0" name="Set local value" sid="616236406322994" type="WebStorage">
+                                    <param id="0" name="Key">&quot;postmode&quot;</param>
+                                    <param id="1" name="Value">Mode</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="146426711767448" title="Post mode">
+            <sub-events>
+                <event-group description="" sid="826931652352373" title="Mode btns">
+                    <sub-events>
+                        <comment>Activate the mode when clicked on a button.</comment>
+                        <event-block sid="824503075209497">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="492941920656038" type="Touch">
+                                    <param id="0" name="Object">post</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="777613147194348" type="System">
+                                    <param id="0" name="Variable">Mode</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="777256507147957">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="754675357644165" type="Touch">
+                                    <param id="0" name="Object">quote</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="969815739629295" type="System">
+                                    <param id="0" name="Variable">Mode</param>
+                                    <param id="1" name="Value">2</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="438733750566446">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="339285519186102" type="Touch">
+                                    <param id="0" name="Object">peep</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="745394272392150" type="System">
+                                    <param id="0" name="Variable">Mode</param>
+                                    <param id="1" name="Value">3</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="775092246601865">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="631466367512688" type="Touch">
+                                    <param id="0" name="Object">future</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="894473885379054" type="System">
+                                    <param id="0" name="Variable">Mode</param>
+                                    <param id="1" name="Value">6</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-block sid="227224719903268">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="565845119467966" type="System">
+                            <param id="0" name="Variable">Mode</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="751846573494231" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="794598890477121" type="mode_selector">
+                            <param id="0" name="X">post.X</param>
+                            <param id="1" name="Y">post.Y + 27</param>
+                        </action>
+                        <action id="0" name="Set text" sid="786812904297556" type="Mode">
+                            <param id="0" name="Text">&quot;Mode: Post&quot;</param>
+                        </action>
+                        <action id="7" name="Set CSS style" sid="137237489060661" type="TextBox">
+                            <param id="0" name="Property name">&quot;font-size&quot;</param>
+                            <param id="1" name="Value">&quot;14px&quot;</param>
+                        </action>
+                        <action id="0" name="Set local value" sid="735750206645493" type="WebStorage">
+                            <param id="0" name="Key">&quot;draftpostsize&quot;</param>
+                            <param id="1" name="Value">&quot;14px&quot;</param>
+                        </action>
+                        <action id="7" name="Set CSS style" sid="194238626820715" type="TextBox">
+                            <param id="0" name="Property name">&quot;background&quot;</param>
+                            <param id="1" name="Value">&quot;#fff&quot;</param>
+                        </action>
+                        <action id="7" name="Set CSS style" sid="505182881764938" type="TextBox">
+                            <param id="0" name="Property name">&quot;color&quot;</param>
+                            <param id="1" name="Value">&quot;#000&quot;</param>
+                        </action>
+                        <action id="0" name="Set local value" sid="459853700204777" type="WebStorage">
+                            <param id="0" name="Key">&quot;postbackground&quot;</param>
+                            <param id="1" name="Value">&quot;#fff&quot;</param>
+                        </action>
+                        <action id="0" name="Set local value" sid="667311883823832" type="WebStorage">
+                            <param id="0" name="Key">&quot;postcolor&quot;</param>
+                            <param id="1" name="Value">&quot;#000&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-group description="" sid="772806801863186" title="Quote/phrase mode">
+                    <sub-events>
+                        <event-block sid="847084559622846">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="825719343722083" type="System">
+                                    <param id="0" name="Variable">Mode</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                                <condition id="-4" name="Trigger once while true" sid="559598172415379" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="613791331550924" type="Text3">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="2" name="Set visible" sid="842033459774189" type="Quote_Author">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-3" name="Set position" sid="456277929022388" type="mode_selector">
+                                    <param id="0" name="X">quote.X</param>
+                                    <param id="1" name="Y">quote.Y + 27</param>
+                                </action>
+                                <action id="7" name="Set CSS style" sid="537158091031017" type="TextBox">
+                                    <param id="0" name="Property name">&quot;font-size&quot;</param>
+                                    <param id="1" name="Value">&quot;50px&quot;</param>
+                                </action>
+                                <action id="0" name="Set local value" sid="931011360740774" type="WebStorage">
+                                    <param id="0" name="Key">&quot;draftpostsize&quot;</param>
+                                    <param id="1" name="Value">&quot;50px&quot;</param>
+                                </action>
+                                <action id="0" name="Set text" sid="895643801744509" type="Mode">
+                                    <param id="0" name="Text">&quot;Mode: Quote/Phrase&quot;</param>
+                                </action>
+                                <action id="7" name="Set CSS style" sid="552832998697972" type="TextBox">
+                                    <param id="0" name="Property name">&quot;background&quot;</param>
+                                    <param id="1" name="Value">&quot;url(quotes.png)&quot;</param>
+                                </action>
+                                <action id="7" name="Set CSS style" sid="982069694386507" type="TextBox">
+                                    <param id="0" name="Property name">&quot;color&quot;</param>
+                                    <param id="1" name="Value">&quot;#000&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="994125453682172">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="988601321415012" type="System">
+                                    <param id="0" name="Variable">Mode</param>
+                                    <param id="1" name="Comparison">1</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set selection" sid="129765923773037" type="Quote_Author">
+                                    <param id="0" name="Index">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="342151828645875" type="Text3">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="2" name="Set visible" sid="117547311098692" type="Quote_Author">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="3" name="Set visible" sid="672403676690877" type="Phrase_Author">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="854941173141077" type="Text4">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="932574640085788">
+                            <conditions>
+                                <condition id="4" name="Compare selected item text" sid="251982095005450" type="Quote_Author">
+                                    <param id="0" name="Text to compare">&quot;You&quot;</param>
+                                    <param id="1" name="Case sensitivity">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="3" name="Set visible" sid="784334531117827" type="Phrase_Author">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="796189224796939" type="Text4">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="650774708548470" type="System">
+                                    <param id="0" name="Variable">PhraseAuthor</param>
+                                    <param id="1" name="Value">&quot;&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="756888106116411">
+                            <conditions>
+                                <condition id="4" name="Compare selected item text" sid="861810518661889" type="Quote_Author">
+                                    <param id="0" name="Text to compare">&quot;Other&quot;</param>
+                                    <param id="1" name="Case sensitivity">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="3" name="Set visible" sid="815686126756136" type="Phrase_Author">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="183173978547692" type="Text4">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="846661432395324">
+                            <conditions>
+                                <condition id="1" name="On text changed" sid="116370732295154" type="Phrase_Author" />
+                                <condition id="0" inverted="1" name="Compare text" sid="843229212058120" type="Phrase_Author">
+                                    <param id="0" name="Text">&quot;&quot;</param>
+                                    <param id="1" name="Case">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="555255819059125" type="System">
+                                    <param id="0" name="Variable">PhraseAuthor</param>
+                                    <param id="1" name="Value">&quot;&lt;author&gt;&quot; &amp; Phrase_Author.Text &amp; &quot;&lt;/author&gt;&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="245439866675478" title="Peep mode">
+                    <sub-events>
+                        <event-block sid="981300589910737">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="854140862832257" type="System">
+                                    <param id="0" name="Variable">Mode</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
+                                <condition id="-4" name="Trigger once while true" sid="111001073865771" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Set position" sid="531702229721624" type="mode_selector">
+                                    <param id="0" name="X">peep.X</param>
+                                    <param id="1" name="Y">peep.Y + 27</param>
+                                </action>
+                                <action id="0" name="Set text" sid="452871987000084" type="Mode">
+                                    <param id="0" name="Text">&quot;Mode: Peep&quot;</param>
+                                </action>
+                                <action id="7" name="Set CSS style" sid="341105675242859" type="TextBox">
+                                    <param id="0" name="Property name">&quot;font-size&quot;</param>
+                                    <param id="1" name="Value">&quot;50px&quot;</param>
+                                </action>
+                                <action id="0" name="Set local value" sid="419441220586514" type="WebStorage">
+                                    <param id="0" name="Key">&quot;draftpostsize&quot;</param>
+                                    <param id="1" name="Value">&quot;50px&quot;</param>
+                                </action>
+                                <action id="7" name="Set CSS style" sid="402780096360567" type="TextBox">
+                                    <param id="0" name="Property name">&quot;background&quot;</param>
+                                    <param id="1" name="Value">&quot;#fff&quot;</param>
+                                </action>
+                                <action id="7" name="Set CSS style" sid="437732315848079" type="TextBox">
+                                    <param id="0" name="Property name">&quot;color&quot;</param>
+                                    <param id="1" name="Value">&quot;#000&quot;</param>
+                                </action>
+                                <action id="0" name="Set local value" sid="511367782060146" type="WebStorage">
+                                    <param id="0" name="Key">&quot;postbackground&quot;</param>
+                                    <param id="1" name="Value">&quot;#fff&quot;</param>
+                                </action>
+                                <action id="0" name="Set local value" sid="577797647471418" type="WebStorage">
+                                    <param id="0" name="Key">&quot;postcolor&quot;</param>
+                                    <param id="1" name="Value">&quot;#000&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="856734883717017">
+                            <conditions>
+                                <condition id="-1" name="Every tick" sid="288270715016044" type="System" />
+                                <condition id="-14" name="Compare variable" sid="379004648175110" type="System">
+                                    <param id="0" name="Variable">Mode</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="120325869866279" type="Mode">
+                                    <param id="0" name="Text">&quot;Mode: Peep | &quot; &amp; len(TextBox.Text) &amp; &quot;/280 characters left&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-group description="" sid="521240405726694" title="Change text size according to charcount">
+                            <sub-events>
+                                <event-block sid="475585209747606">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="130750265884493" type="System">
+                                            <param id="0" name="Variable">Mode</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">3</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="832466923974538">
+                                            <conditions>
+                                                <condition id="-8" name="Compare two values" sid="126833973149412" type="System">
+                                                    <param id="0" name="First value">len(TextBox.Text)</param>
+                                                    <param id="1" name="Comparison">3</param>
+                                                    <param id="2" name="Second value">53</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="7" name="Set CSS style" sid="871493035622385" type="TextBox">
+                                                    <param id="0" name="Property name">&quot;font-size&quot;</param>
+                                                    <param id="1" name="Value">&quot;50px&quot;</param>
+                                                </action>
+                                                <action id="0" name="Set local value" sid="461788273570444" type="WebStorage">
+                                                    <param id="0" name="Key">&quot;draftpostsize&quot;</param>
+                                                    <param id="1" name="Value">&quot;50px&quot;</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="505701141931259">
+                                            <conditions>
+                                                <condition id="-8" name="Compare two values" sid="869742797511435" type="System">
+                                                    <param id="0" name="First value">len(TextBox.Text)</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Second value">54</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="7" name="Set CSS style" sid="857357743984341" type="TextBox">
+                                                    <param id="0" name="Property name">&quot;font-size&quot;</param>
+                                                    <param id="1" name="Value">&quot;45px&quot;</param>
+                                                </action>
+                                                <action id="0" name="Set local value" sid="218963724080197" type="WebStorage">
+                                                    <param id="0" name="Key">&quot;draftpostsize&quot;</param>
+                                                    <param id="1" name="Value">&quot;45px&quot;</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="779732668100014">
+                                            <conditions>
+                                                <condition id="-8" name="Compare two values" sid="856332884750303" type="System">
+                                                    <param id="0" name="First value">len(TextBox.Text)</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Second value">74</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="7" name="Set CSS style" sid="561317285703875" type="TextBox">
+                                                    <param id="0" name="Property name">&quot;font-size&quot;</param>
+                                                    <param id="1" name="Value">&quot;40px&quot;</param>
+                                                </action>
+                                                <action id="0" name="Set local value" sid="893067795961482" type="WebStorage">
+                                                    <param id="0" name="Key">&quot;draftpostsize&quot;</param>
+                                                    <param id="1" name="Value">&quot;40px&quot;</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="793506497967774">
+                                            <conditions>
+                                                <condition id="-8" name="Compare two values" sid="340960001986259" type="System">
+                                                    <param id="0" name="First value">len(TextBox.Text)</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Second value">114</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="7" name="Set CSS style" sid="249386888387014" type="TextBox">
+                                                    <param id="0" name="Property name">&quot;font-size&quot;</param>
+                                                    <param id="1" name="Value">&quot;35px&quot;</param>
+                                                </action>
+                                                <action id="0" name="Set local value" sid="747767477539404" type="WebStorage">
+                                                    <param id="0" name="Key">&quot;draftpostsize&quot;</param>
+                                                    <param id="1" name="Value">&quot;35px&quot;</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="898247473191323">
+                                            <conditions>
+                                                <condition id="-8" name="Compare two values" sid="862912700678902" type="System">
+                                                    <param id="0" name="First value">len(TextBox.Text)</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Second value">140</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="7" name="Set CSS style" sid="857904119430672" type="TextBox">
+                                                    <param id="0" name="Property name">&quot;font-size&quot;</param>
+                                                    <param id="1" name="Value">&quot;30px&quot;</param>
+                                                </action>
+                                                <action id="0" name="Set local value" sid="608010821263573" type="WebStorage">
+                                                    <param id="0" name="Key">&quot;draftpostsize&quot;</param>
+                                                    <param id="1" name="Value">&quot;30px&quot;</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="211617140425418">
+                                            <conditions>
+                                                <condition id="-8" name="Compare two values" sid="418628120809196" type="System">
+                                                    <param id="0" name="First value">len(TextBox.Text)</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Second value">196</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="7" name="Set CSS style" sid="267655144949586" type="TextBox">
+                                                    <param id="0" name="Property name">&quot;font-size&quot;</param>
+                                                    <param id="1" name="Value">&quot;25px&quot;</param>
+                                                </action>
+                                                <action id="0" name="Set local value" sid="671159779219758" type="WebStorage">
+                                                    <param id="0" name="Key">&quot;draftpostsize&quot;</param>
+                                                    <param id="1" name="Value">&quot;25px&quot;</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="498832042540812">
+                                            <conditions>
+                                                <condition id="-8" name="Compare two values" sid="955560755265442" type="System">
+                                                    <param id="0" name="First value">len(TextBox.Text)</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Second value">218</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="7" name="Set CSS style" sid="130170645348490" type="TextBox">
+                                                    <param id="0" name="Property name">&quot;font-size&quot;</param>
+                                                    <param id="1" name="Value">&quot;20px&quot;</param>
+                                                </action>
+                                                <action id="0" name="Set local value" sid="723193830992944" type="WebStorage">
+                                                    <param id="0" name="Key">&quot;draftpostsize&quot;</param>
+                                                    <param id="1" name="Value">&quot;20px&quot;</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                            </sub-events>
+                        </event-group>
+                        <event-block sid="944123861816753">
+                            <conditions>
+                                <condition id="-8" name="Compare two values" sid="864463335034286" type="System">
+                                    <param id="0" name="First value">len(TextBox.Text)</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Second value">281</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="229371937697069" type="System">
+                                    <param id="0" name="Variable">Mode</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="658577129153242" type="TextBox">
+                                    <param id="0" name="Text">left(TextBox.Text, 280)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-block sid="244790966392702">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="716458623618473" type="System">
+                            <param id="0" name="Variable">Mode</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">6</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="456261050264534" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="212098676439216" type="mode_selector">
+                            <param id="0" name="X">future.X</param>
+                            <param id="1" name="Y">future.Y + 27</param>
+                        </action>
+                        <action id="0" name="Set text" sid="429571099163898" type="Mode">
+                            <param id="0" name="Text">&quot;Mode: Future Preview&quot;</param>
+                        </action>
+                        <action id="7" name="Set CSS style" sid="359718687725411" type="TextBox">
+                            <param id="0" name="Property name">&quot;font-size&quot;</param>
+                            <param id="1" name="Value">&quot;50px&quot;</param>
+                        </action>
+                        <action id="0" name="Set local value" sid="440916108681001" type="WebStorage">
+                            <param id="0" name="Key">&quot;draftpostsize&quot;</param>
+                            <param id="1" name="Value">&quot;50px&quot;</param>
+                        </action>
+                        <action id="7" name="Set CSS style" sid="961820938860384" type="TextBox">
+                            <param id="0" name="Property name">&quot;background&quot;</param>
+                            <param id="1" name="Value">&quot;url(futurepreview.png)&quot;</param>
+                        </action>
+                        <action id="7" name="Set CSS style" sid="893387960618970" type="TextBox">
+                            <param id="0" name="Property name">&quot;color&quot;</param>
+                            <param id="1" name="Value">&quot;#fff&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="862204485292957" title="Keyboard shortcuts">
+            <sub-events>
+                <comment>F11 keyboard shortcut for Fullscreen mode.</comment>
+                <event-block sid="161470222520925">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="198981962304151" type="Keyboard">
+                            <param id="0" name="Key">122 (F11)</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <comment>If not in fullscreen, turn fullscreen on when pressed F11.</comment>
+                        <event-block sid="466425765153808">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="976744705018601" type="System">
+                                    <param id="0" name="Variable">fullscreen</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Wait" sid="802573578988155" type="System">
+                                    <param id="0" name="Seconds">0.1</param>
+                                </action>
+                                <action id="10" name="Request fullscreen" sid="258247777115298" type="Browser">
+                                    <param id="0" name="Mode">1</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="431668933091738" type="System">
+                                    <param id="0" name="Variable">fullscreen</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <comment>If already in fullscreen, turn fullscreen off when pressed F11.</comment>
+                        <event-block sid="467148432364664">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="805336834922041" type="System">
+                                    <param id="0" name="Variable">fullscreen</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Wait" sid="423678259391020" type="System">
+                                    <param id="0" name="Seconds">0.1</param>
+                                </action>
+                                <action id="11" name="Cancel fullscreen" sid="376085500575389" type="Browser" />
+                                <action id="-9" name="Set value" sid="362957147131206" type="System">
+                                    <param id="0" name="Variable">fullscreen</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="411685029238373" title="Geolocalization">
+            <sub-events>
+                <comment>Actions when clicked in geo button.</comment>
+                <event-block sid="580760893727004">
+                    <conditions>
+                        <condition id="3" name="On C2 Function" sid="504828382461952" type="UI" />
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="731359670070927">
+                            <conditions>
+                                <condition id="4" name="Compare C2 Function" sid="154102855838010" type="UI">
+                                    <param id="0" name="C2">&quot;geo&quot;</param>
+                                    <param id="1" name="Case">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="14" name="Log" sid="404512974279560" type="Browser">
+                                    <param id="0" name="Type">0</param>
+                                    <param id="1" name="Message">&quot;Clicked in geolocalization button&quot;</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <comment>Tests if Geolocalization is currently supported in platform/hardware. &quot;Post&quot; button is disabled while this.</comment>
+                                <event-block sid="886201276730269">
+                                    <conditions>
+                                        <condition id="0" name="Is supported" sid="714569371262777" type="Geolocation" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Request location" sid="494812194814312" type="Geolocation">
+                                            <param id="0" name="Accuracy">1</param>
+                                            <param id="1" name="Timeout">60</param>
+                                            <param id="2" name="Maximum age">0</param>
+                                        </action>
+                                        <action id="24" name="Get elements" sid="726376279908352" type="UI">
+                                            <param id="0" name="ID/Class">&quot;#appstatus&quot;</param>
+                                            <param id="1" name="Set">&quot;&lt;i class=material-icons&gt;check_circle&lt;/i&gt; Geolocalization supported. Result:&quot; &amp; Location</param>
+                                            <param id="2" name="Append">&quot;&quot;</param>
+                                        </action>
+                                        <action id="14" name="Log" sid="207916991761209" type="Browser">
+                                            <param id="0" name="Type">0</param>
+                                            <param id="1" name="Message">&quot;Geolocalization supported. Result:&quot; &amp; Location</param>
+                                        </action>
+                                        <action id="1" name="Set tooltip" sid="772119605185998" type="OK">
+                                            <param id="0" name="Tooltip">&quot;You can&apos;t post now, please wait.&quot;</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="145536450641639" type="System">
+                                            <param id="0" name="Variable">DisablePost</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <comment>If geolocalization isn&apos;t supported: deletes location from statusbar, send messages, and makes &quot;Post&quot; button enabled.</comment>
+                                <event-block sid="836600890424918">
+                                    <conditions>
+                                        <condition id="-22" name="Else" sid="870166271088542" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="24" name="Get elements" sid="237046405533736" type="UI">
+                                            <param id="0" name="ID/Class">&quot;#appstatus&quot;</param>
+                                            <param id="1" name="Set">&quot;&quot;</param>
+                                            <param id="2" name="Append">&quot;&quot;</param>
+                                        </action>
+                                        <action id="0" name="Alert" sid="389492658625292" type="Browser">
+                                            <param id="0" name="Message">&quot;Geolocalization isn&apos;t supported.&quot;</param>
+                                        </action>
+                                        <action id="14" name="Log" sid="679420070578625" type="Browser">
+                                            <param id="0" name="Type">0</param>
+                                            <param id="1" name="Message">&quot;Geolocalization isn&apos;t supported.&quot;</param>
+                                        </action>
+                                        <action id="1" name="Set tooltip" sid="644105225073813" type="OK">
+                                            <param id="0" name="Tooltip">&quot;You can&apos;t post now, please wait.&quot;</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="802054077805470" type="System">
+                                            <param id="0" name="Variable">DisablePost</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <comment>If geolocalization starts sending location data: makes it available to be attached in post, saves it to Web Storage (for if app is closed and user opts to resume the draft sometime), shows in statusbar the location, and makes &quot;Post&quot; button enabled.</comment>
+                                <event-block sid="174141304410883">
+                                    <conditions>
+                                        <condition id="1" name="Is watching location" sid="226624626105271" type="Geolocation" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-9" name="Set value" sid="414947553081862" type="System">
+                                            <param id="0" name="Variable">location</param>
+                                            <param id="1" name="Value">Geolocation.Latitude</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="546138803047053" type="System">
+                                            <param id="0" name="Variable">geo</param>
+                                            <param id="1" name="Value">&quot;&lt;geo-latitude&gt;&quot; &amp; location &amp; &quot;&lt;/geo-latitude&gt;&quot;</param>
+                                        </action>
+                                        <action id="0" name="Set local value" sid="916561995616159" type="WebStorage">
+                                            <param id="0" name="Key">&quot;location&quot;</param>
+                                            <param id="1" name="Value">location</param>
+                                        </action>
+                                        <action id="0" name="Set local value" sid="581909297480236" type="WebStorage">
+                                            <param id="0" name="Key">&quot;geo&quot;</param>
+                                            <param id="1" name="Value">geo</param>
+                                        </action>
+                                        <action id="24" name="Get elements" sid="403713872892016" type="UI">
+                                            <param id="0" name="ID/Class">&quot;#appstatus&quot;</param>
+                                            <param id="1" name="Set">&quot;&lt;i class=material-icons&gt;public&lt;/i&gt; Watching:&quot; &amp; Location</param>
+                                            <param id="2" name="Append">&quot;&quot;</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="992487663042289" type="System">
+                                            <param id="0" name="Variable">DisablePost</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <comment>The above event uses the &quot;Is&quot; loop, so the log in console would show a message every second. So this is now set to Trigger once, bellow.</comment>
+                                        <event-block sid="345438434884642">
+                                            <conditions>
+                                                <condition id="-4" name="Trigger once while true" sid="973610878061108" type="System" />
+                                            </conditions>
+                                            <actions>
+                                                <action id="14" name="Log" sid="363723764132014" type="Browser">
+                                                    <param id="0" name="Type">0</param>
+                                                    <param id="1" name="Message">&quot;Watching:&quot; &amp; Location</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <comment>If geolocalization is supported but gets a error: send messages, deletes location from statusbar, makes &quot;Post&quot; button enabled, and clears Web Storage&apos;s location data.</comment>
+                <event-block sid="447240704438272">
+                    <conditions>
+                        <condition id="3" name="On error" sid="663336552508935" type="Geolocation" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Alert" sid="455885455405894" type="Browser">
+                            <param id="0" name="Message">&quot;Error locating! Please try it in another device or upgrade your hardware.&quot;</param>
+                        </action>
+                        <action id="14" name="Log" sid="398507839345918" type="Browser">
+                            <param id="0" name="Type">0</param>
+                            <param id="1" name="Message">&quot;Error locating! Please try it in another device or upgrade your hardware.&quot;</param>
+                        </action>
+                        <action id="24" name="Get elements" sid="741842885449771" type="UI">
+                            <param id="0" name="ID/Class">&quot;#appstatus&quot;</param>
+                            <param id="1" name="Set">&quot;&quot;</param>
+                            <param id="2" name="Append">&quot;&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="172617161746736" type="System">
+                            <param id="0" name="Variable">geo</param>
+                            <param id="1" name="Value">&quot;&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="616150374439219" type="System">
+                            <param id="0" name="Variable">DisablePost</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="0" name="Set local value" sid="383895189500290" type="WebStorage">
+                            <param id="0" name="Key">&quot;location&quot;</param>
+                            <param id="1" name="Value">&quot;&quot;</param>
+                        </action>
+                        <action id="0" name="Set local value" sid="672528381644256" type="WebStorage">
+                            <param id="0" name="Key">&quot;geo&quot;</param>
+                            <param id="1" name="Value">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="561027390926953" title="Post background buttons">
+            <sub-events>
+                <comment>Sets the background of the post accourding to the button clicked.</comment>
+                <event-block sid="726625889074343">
+                    <conditions>
+                        <condition id="3" name="On C2 Function" sid="601819374061519" type="UI" />
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="330302037546308">
+                            <conditions>
+                                <condition id="4" name="Compare C2 Function" sid="501288570897989" type="UI">
+                                    <param id="0" name="C2">&quot;bg-white&quot;</param>
+                                    <param id="1" name="Case">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="7" name="Set CSS style" sid="319283392110180" type="TextBox">
+                                    <param id="0" name="Property name">&quot;background&quot;</param>
+                                    <param id="1" name="Value">&quot;#fff&quot;</param>
+                                </action>
+                                <action id="7" name="Set CSS style" sid="207043679504088" type="TextBox">
+                                    <param id="0" name="Property name">&quot;color&quot;</param>
+                                    <param id="1" name="Value">&quot;#000&quot;</param>
+                                </action>
+                                <action id="0" name="Set local value" sid="460384335023197" type="WebStorage">
+                                    <param id="0" name="Key">&quot;postbackground&quot;</param>
+                                    <param id="1" name="Value">&quot;#fff&quot;</param>
+                                </action>
+                                <action id="0" name="Set local value" sid="349201097349170" type="WebStorage">
+                                    <param id="0" name="Key">&quot;postcolor&quot;</param>
+                                    <param id="1" name="Value">&quot;#000&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="896490341082065">
+                    <conditions>
+                        <condition id="3" name="On C2 Function" sid="665239148457971" type="UI" />
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="711393418931013">
+                            <conditions>
+                                <condition id="4" name="Compare C2 Function" sid="279643439389401" type="UI">
+                                    <param id="0" name="C2">&quot;bg-politics&quot;</param>
+                                    <param id="1" name="Case">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="7" name="Set CSS style" sid="534528356460091" type="TextBox">
+                                    <param id="0" name="Property name">&quot;background&quot;</param>
+                                    <param id="1" name="Value">&quot;linear-gradient(to right, #2196f3, #f44336)&quot;</param>
+                                </action>
+                                <action id="7" name="Set CSS style" sid="915408348061380" type="TextBox">
+                                    <param id="0" name="Property name">&quot;color&quot;</param>
+                                    <param id="1" name="Value">&quot;#fff&quot;</param>
+                                </action>
+                                <action id="0" name="Set local value" sid="510659382488654" type="WebStorage">
+                                    <param id="0" name="Key">&quot;postbackground&quot;</param>
+                                    <param id="1" name="Value">&quot;linear-gradient(to right, #2196f3, #f44336)&quot;</param>
+                                </action>
+                                <action id="0" name="Set local value" sid="244961089200168" type="WebStorage">
+                                    <param id="0" name="Key">&quot;postcolor&quot;</param>
+                                    <param id="1" name="Value">&quot;#fff&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="805375232597696">
+                    <conditions>
+                        <condition id="3" name="On C2 Function" sid="501096075441930" type="UI" />
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="825985538149337">
+                            <conditions>
+                                <condition id="4" name="Compare C2 Function" sid="152269799618759" type="UI">
+                                    <param id="0" name="C2">&quot;bg-sweetmorning&quot;</param>
+                                    <param id="1" name="Case">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="7" name="Set CSS style" sid="407974926532347" type="TextBox">
+                                    <param id="0" name="Property name">&quot;background&quot;</param>
+                                    <param id="1" name="Value">&quot;linear-gradient(to right, #FFC371, #FF5F6D)&quot;</param>
+                                </action>
+                                <action id="7" name="Set CSS style" sid="276817483418851" type="TextBox">
+                                    <param id="0" name="Property name">&quot;color&quot;</param>
+                                    <param id="1" name="Value">&quot;#fff&quot;</param>
+                                </action>
+                                <action id="0" name="Set local value" sid="833151969415376" type="WebStorage">
+                                    <param id="0" name="Key">&quot;postbackground&quot;</param>
+                                    <param id="1" name="Value">&quot;linear-gradient(to right, #FFC371, #FF5F6D)&quot;</param>
+                                </action>
+                                <action id="0" name="Set local value" sid="453010660084319" type="WebStorage">
+                                    <param id="0" name="Key">&quot;postcolor&quot;</param>
+                                    <param id="1" name="Value">&quot;#fff&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="537472208313526">
+                    <conditions>
+                        <condition id="3" name="On C2 Function" sid="757270939114696" type="UI" />
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="182791169976042">
+                            <conditions>
+                                <condition id="4" name="Compare C2 Function" sid="861645684808433" type="UI">
+                                    <param id="0" name="C2">&quot;bg-sylvia&quot;</param>
+                                    <param id="1" name="Case">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="7" name="Set CSS style" sid="741450633843025" type="TextBox">
+                                    <param id="0" name="Property name">&quot;background&quot;</param>
+                                    <param id="1" name="Value">&quot;linear-gradient(to right, #ff9068, #ff4b1f)&quot;</param>
+                                </action>
+                                <action id="7" name="Set CSS style" sid="500374330296878" type="TextBox">
+                                    <param id="0" name="Property name">&quot;color&quot;</param>
+                                    <param id="1" name="Value">&quot;#fff&quot;</param>
+                                </action>
+                                <action id="0" name="Set local value" sid="426216335471612" type="WebStorage">
+                                    <param id="0" name="Key">&quot;postbackground&quot;</param>
+                                    <param id="1" name="Value">&quot;linear-gradient(to right, #ff9068, #ff4b1f)&quot;</param>
+                                </action>
+                                <action id="0" name="Set local value" sid="156496866647470" type="WebStorage">
+                                    <param id="0" name="Key">&quot;postcolor&quot;</param>
+                                    <param id="1" name="Value">&quot;#fff&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="542621237464244">
+                    <conditions>
+                        <condition id="3" name="On C2 Function" sid="337166938473431" type="UI" />
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="396276922580446">
+                            <conditions>
+                                <condition id="4" name="Compare C2 Function" sid="631850205678615" type="UI">
+                                    <param id="0" name="C2">&quot;bg-moonlitasteroid&quot;</param>
+                                    <param id="1" name="Case">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="7" name="Set CSS style" sid="306275343525276" type="TextBox">
+                                    <param id="0" name="Property name">&quot;background&quot;</param>
+                                    <param id="1" name="Value">&quot;linear-gradient(to right, #2C5364, #203A43, #0F2027)&quot;</param>
+                                </action>
+                                <action id="7" name="Set CSS style" sid="989867697633254" type="TextBox">
+                                    <param id="0" name="Property name">&quot;color&quot;</param>
+                                    <param id="1" name="Value">&quot;#fff&quot;</param>
+                                </action>
+                                <action id="0" name="Set local value" sid="503494888536175" type="WebStorage">
+                                    <param id="0" name="Key">&quot;postbackground&quot;</param>
+                                    <param id="1" name="Value">&quot;linear-gradient(to right, #2C5364, #203A43, #0F2027)&quot;</param>
+                                </action>
+                                <action id="0" name="Set local value" sid="395963897562404" type="WebStorage">
+                                    <param id="0" name="Key">&quot;postcolor&quot;</param>
+                                    <param id="1" name="Value">&quot;#fff&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="900128940519228">
+                    <conditions>
+                        <condition id="3" name="On C2 Function" sid="297705754287080" type="UI" />
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="304090149721865">
+                            <conditions>
+                                <condition id="4" name="Compare C2 Function" sid="104828233074416" type="UI">
+                                    <param id="0" name="C2">&quot;bg-coolsky&quot;</param>
+                                    <param id="1" name="Case">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="7" name="Set CSS style" sid="509357460937528" type="TextBox">
+                                    <param id="0" name="Property name">&quot;background&quot;</param>
+                                    <param id="1" name="Value">&quot;linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9)&quot;</param>
+                                </action>
+                                <action id="7" name="Set CSS style" sid="230800099729598" type="TextBox">
+                                    <param id="0" name="Property name">&quot;color&quot;</param>
+                                    <param id="1" name="Value">&quot;#000&quot;</param>
+                                </action>
+                                <action id="0" name="Set local value" sid="796910937289159" type="WebStorage">
+                                    <param id="0" name="Key">&quot;postbackground&quot;</param>
+                                    <param id="1" name="Value">&quot;linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9)&quot;</param>
+                                </action>
+                                <action id="0" name="Set local value" sid="803886183302369" type="WebStorage">
+                                    <param id="0" name="Key">&quot;postcolor&quot;</param>
+                                    <param id="1" name="Value">&quot;#000&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="653019166438791">
+                    <conditions>
+                        <condition id="3" name="On C2 Function" sid="233087808292430" type="UI" />
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="736988267742186">
+                            <conditions>
+                                <condition id="4" name="Compare C2 Function" sid="146981647638406" type="UI">
+                                    <param id="0" name="C2">&quot;bg-yoda&quot;</param>
+                                    <param id="1" name="Case">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="7" name="Set CSS style" sid="237982551190798" type="TextBox">
+                                    <param id="0" name="Property name">&quot;background&quot;</param>
+                                    <param id="1" name="Value">&quot;linear-gradient(to right, #493240, #FF0099)&quot;</param>
+                                </action>
+                                <action id="7" name="Set CSS style" sid="626814399103834" type="TextBox">
+                                    <param id="0" name="Property name">&quot;color&quot;</param>
+                                    <param id="1" name="Value">&quot;#fff&quot;</param>
+                                </action>
+                                <action id="0" name="Set local value" sid="728557927603149" type="WebStorage">
+                                    <param id="0" name="Key">&quot;postbackground&quot;</param>
+                                    <param id="1" name="Value">&quot;linear-gradient(to right, #493240, #FF0099)&quot;</param>
+                                </action>
+                                <action id="0" name="Set local value" sid="859492684023503" type="WebStorage">
+                                    <param id="0" name="Key">&quot;postcolor&quot;</param>
+                                    <param id="1" name="Value">&quot;#fff&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="383435769634329">
+                    <conditions>
+                        <condition id="3" name="On C2 Function" sid="993769642694282" type="UI" />
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="139564152468096">
+                            <conditions>
+                                <condition id="4" name="Compare C2 Function" sid="338421313551759" type="UI">
+                                    <param id="0" name="C2">&quot;bg-amin&quot;</param>
+                                    <param id="1" name="Case">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="7" name="Set CSS style" sid="318061238093183" type="TextBox">
+                                    <param id="0" name="Property name">&quot;background&quot;</param>
+                                    <param id="1" name="Value">&quot;linear-gradient(to right, #4A00E0, #8E2DE2)&quot;</param>
+                                </action>
+                                <action id="7" name="Set CSS style" sid="177173622591107" type="TextBox">
+                                    <param id="0" name="Property name">&quot;color&quot;</param>
+                                    <param id="1" name="Value">&quot;#fff&quot;</param>
+                                </action>
+                                <action id="0" name="Set local value" sid="732058384266969" type="WebStorage">
+                                    <param id="0" name="Key">&quot;postbackground&quot;</param>
+                                    <param id="1" name="Value">&quot;linear-gradient(to right, #4A00E0, #8E2DE2)&quot;</param>
+                                </action>
+                                <action id="0" name="Set local value" sid="371771402676511" type="WebStorage">
+                                    <param id="0" name="Key">&quot;postcolor&quot;</param>
+                                    <param id="1" name="Value">&quot;#fff&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="144486108965900" title="Mouse hover">
+            <sub-events>
+                <comment>Hover effect for post field.</comment>
+                <event-block sid="616173993354187">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="637824215669481" type="Mouse">
+                            <param id="0" name="Object">TextBox</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="7" name="Set CSS style" sid="501733642879833" type="TextBox">
+                            <param id="0" name="Property name">&quot;border&quot;</param>
+                            <param id="1" name="Value">&quot;1px solid #444&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="860529485795985">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="100808975260264" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="7" name="Set CSS style" sid="952913828894733" type="TextBox">
+                            <param id="0" name="Property name">&quot;border&quot;</param>
+                            <param id="1" name="Value">&quot;0px solid #444&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="582746646509572" title="Photo">
+            <sub-events>
+                <event-block sid="693572943398586">
+                    <conditions>
+                        <condition id="3" name="On C2 Function" sid="683917550421925" type="UI" />
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="949140067824534">
+                            <conditions>
+                                <condition id="4" name="Compare C2 Function" sid="218196079331054" type="UI">
+                                    <param id="0" name="C2">&quot;img&quot;</param>
+                                    <param id="1" name="Case">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set visible" sid="238392890361299" type="FileChooser">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="0" name="Set text" sid="248224333534019" type="ChooseFile">
+                                    <param id="0" name="Text">&quot;Choose a image:&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="350030249640071">
+                    <conditions>
+                        <condition id="0" name="On changed" sid="497794984449910" type="FileChooser" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set visible" sid="934470535580901" type="FileChooser">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="0" name="Set text" sid="763408907669223" type="ChooseFile">
+                            <param id="0" name="Text">&quot;Loading...&quot;</param>
+                        </action>
+                        <action id="0" name="Request URL" sid="812092360481633" type="AJAX">
+                            <param id="0" name="Tag">&quot;loadimg&quot;</param>
+                            <param id="1" name="URL">FileChooser.FileURLAt(0)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="991128834265987">
+                    <conditions>
+                        <condition id="0" name="On completed" sid="364650895767045" type="AJAX">
+                            <param id="0" name="Tag">&quot;loadimg&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="520076741656511" type="ChooseFile">
+                            <param id="0" name="Text">&quot;&quot;</param>
+                        </action>
+                        <action id="10" name="Load image from URL" sid="744844381661276" type="photo2">
+                            <param id="0" name="URI">AJAX.LastData</param>
+                            <param id="1" name="Size">1</param>
+                            <param id="2" name="Cross-origin">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>
