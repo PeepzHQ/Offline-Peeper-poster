@@ -1,29 +1,7 @@
-[1.1.8.0] Moved from NWjs to Electron, dynamic text-size, better WebStorage, design advancements in HTML
+* Added FrameworkJS (with Bootstrap and its Material Design theme)
+* Statusbar with white text color declared
 
-* Don't reset the background on future preview and phrase/quote mode
-* Show posts count when loaded
-* Change text size according to charcount
-* Change text size according to mode
-* Clean draft post after posting it
-* When recovering a draft post, remember its post mode
-* Less space between "Background" and "Attach" headings
-* Port from NWjs to Electron
-* Rename "Init" to "Splash" layout
-* New detection about if app is being used on a browser
-* Start on "Splash" layout
-* "Post" button in HTML
-* Set window size at start
-* Set window to not be animated
-* Roboto font
-* Statusbar in HTML
-* Material Icons
-* Icon in posts count
-* Improved design of Statusbar
-* Icon in "Saving post" status
-* Icon in "Saved post" status
-* Icon in geolocation status
-
-Files in releases
+Better splashscreen
 
 Save posts count in file (Peeper/posts/count.txt) instead of Web Storage (to make the Peeper folder portable)
 
@@ -40,21 +18,10 @@ active effect in post backgrounds
 
 When recovering a draft post, remember its text-size
 
-post bg from IPFS
-progressbar about peep character limit
-
 store location on WebStorage (draft)
 clean location text after posting
 
-detect if no web storage but peeper folder exists
 can post photos from storage
-can post photos from a URL
-can post photos to imgur
-Custom post colors/gradients/backgrounds
-autosave in statusbar
-settings page
-settings: autosave
-multilanguage posts
 
 Post field in HTML
 active effect in post field
@@ -63,19 +30,31 @@ HTML in post mode
 HTML header
 "Beta" label
 full HTML
+autosave in statusbar
+settings page
+settings: autosave
 About menu
 license
 tooltips
 https://github.com/Orkutter/Offline-Peeper-poster/issues/6
 https://github.com/Orkutter/Offline-Peeper-poster/issues/5
-can delete posts
+
+dark mode
+progressbar about peep character limit
 Frameless window
+Custom post colors/gradients/backgrounds
+post bg from IPFS
+can post photos from a URL
+can post photos to imgur
+can post photos to IPFS
+multilanguage posts
 FMWK's UltraWizard: ask for switch to post mode when reaching peep character limit
 
 shows error if can't write post to the disk
 shows error if web storage isn't available
 
 Offline Peeper profiler
+can delete posts
 
 
 https://mobile.twitter.com/SMizaraite
