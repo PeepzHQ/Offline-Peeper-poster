@@ -1,0 +1,42 @@
+.header, header {
+    background: #ed2590!important;
+}
+
+.logo,logo {
+    background: url(../icon.png) no-repeat no-repeat 3px 10px;
+    background-size: 41px;
+    text-indent: 49px;
+}
+
+::selection {
+    background: #ed2590!important;
+    color: #fff!important;
+}
+
+.h0, h0 {
+    color: #ed2590!important;
+}
+
+.h1, h1 {
+    color: #ed2590!important;
+}
+
+.navmenu {
+    color: #ed2590!important;
+}
+.navmenu ul > li:hover {
+    background: #ed2590!important;
+}
+
+ul.tabs{border-bottom:1px solid #ed2590}
+ul.tabs li a:active{color:#ed259080;border-bottom:4px solid #ed259080}
+ul.tabs li.current a{color:#ed2590;border-bottom:4px solid #ed2590}
+
+button.color{background:#ed2590;color:#fff;font-weight:bold;padding:10px;font-size:16px}
+button.color:hover{background:#fff;color:#ed2590}
+
+.btn-primary {
+    background-color:#ed2590!important;
+}
+
+.footer,footer{background:#ed2590}

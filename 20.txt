@@ -1,43 +1,18 @@
 * Added FrameworkJS (with Bootstrap and its Material Design theme)
 * Statusbar with white text color declared
 
-Better splashscreen
-
-Save posts count in file (Peeper/posts/count.txt) instead of Web Storage (to make the Peeper folder portable)
-
-Storage:
-post count
-draft post
-post mode
-post bg
-post text size
-
-when in other mode (post, phrase, future), hide backgroundselector
-prevent duplicate post
-active effect in post backgrounds
-
-When recovering a draft post, remember its text-size
-
-store location on WebStorage (draft)
-clean location text after posting
-
-can post photos from storage
-
-Post field in HTML
-active effect in post field
-effects in button and field
-HTML in post mode
 HTML header
 "Beta" label
-full HTML
-autosave in statusbar
-settings page
-settings: autosave
+Full HTML
+Prevent duplicate post
+Autosave in statusbar
+Settings page
+Settings: autosave
 About menu
-license
-tooltips
-https://github.com/Orkutter/Offline-Peeper-poster/issues/6
-https://github.com/Orkutter/Offline-Peeper-poster/issues/5
+License
+Tooltips
+
+Screenshots
 
 dark mode
 progressbar about peep character limit
@@ -49,10 +24,8 @@ can post photos to imgur
 can post photos to IPFS
 multilanguage posts
 FMWK's UltraWizard: ask for switch to post mode when reaching peep character limit
-
 shows error if can't write post to the disk
 shows error if web storage isn't available
-
 Offline Peeper profiler
 can delete posts
 
