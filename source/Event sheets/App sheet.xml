@@ -617,7 +617,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" sid="146426711767448" title="Post mode">
+        <event-group description="" sid="146426711767448" title="Posting Modes">
             <sub-events>
                 <event-group description="" sid="826931652352373" title="Mode btns">
                     <sub-events>
@@ -676,50 +676,54 @@
                         </event-block>
                     </sub-events>
                 </event-group>
-                <event-block sid="227224719903268">
-                    <conditions>
-                        <condition id="-14" name="Compare variable" sid="565845119467966" type="System">
-                            <param id="0" name="Variable">Mode</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">1</param>
-                        </condition>
-                        <condition id="-4" name="Trigger once while true" sid="751846573494231" type="System" />
-                    </conditions>
-                    <actions>
-                        <action id="-3" name="Set position" sid="794598890477121" type="mode_selector">
-                            <param id="0" name="X">post.X</param>
-                            <param id="1" name="Y">post.Y + 27</param>
-                        </action>
-                        <action id="0" name="Set text" sid="786812904297556" type="Mode">
-                            <param id="0" name="Text">&quot;Mode: Post&quot;</param>
-                        </action>
-                        <action id="7" name="Set CSS style" sid="137237489060661" type="TextBox">
-                            <param id="0" name="Property name">&quot;font-size&quot;</param>
-                            <param id="1" name="Value">&quot;14px&quot;</param>
-                        </action>
-                        <action id="0" name="Set local value" sid="735750206645493" type="WebStorage">
-                            <param id="0" name="Key">&quot;draftpostsize&quot;</param>
-                            <param id="1" name="Value">&quot;14px&quot;</param>
-                        </action>
-                        <action id="7" name="Set CSS style" sid="194238626820715" type="TextBox">
-                            <param id="0" name="Property name">&quot;background&quot;</param>
-                            <param id="1" name="Value">&quot;#fff&quot;</param>
-                        </action>
-                        <action id="7" name="Set CSS style" sid="505182881764938" type="TextBox">
-                            <param id="0" name="Property name">&quot;color&quot;</param>
-                            <param id="1" name="Value">&quot;#000&quot;</param>
-                        </action>
-                        <action id="0" name="Set local value" sid="459853700204777" type="WebStorage">
-                            <param id="0" name="Key">&quot;postbackground&quot;</param>
-                            <param id="1" name="Value">&quot;#fff&quot;</param>
-                        </action>
-                        <action id="0" name="Set local value" sid="667311883823832" type="WebStorage">
-                            <param id="0" name="Key">&quot;postcolor&quot;</param>
-                            <param id="1" name="Value">&quot;#000&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-group description="" sid="772806801863186" title="Quote/phrase mode">
+                <event-group description="" sid="571729894693927" title="Mode: Post">
+                    <sub-events>
+                        <event-block sid="227224719903268">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="565845119467966" type="System">
+                                    <param id="0" name="Variable">Mode</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                                <condition id="-4" name="Trigger once while true" sid="751846573494231" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Set position" sid="794598890477121" type="mode_selector">
+                                    <param id="0" name="X">post.X</param>
+                                    <param id="1" name="Y">post.Y + 27</param>
+                                </action>
+                                <action id="0" name="Set text" sid="786812904297556" type="Mode">
+                                    <param id="0" name="Text">&quot;Mode: Post&quot;</param>
+                                </action>
+                                <action id="7" name="Set CSS style" sid="137237489060661" type="TextBox">
+                                    <param id="0" name="Property name">&quot;font-size&quot;</param>
+                                    <param id="1" name="Value">&quot;14px&quot;</param>
+                                </action>
+                                <action id="0" name="Set local value" sid="735750206645493" type="WebStorage">
+                                    <param id="0" name="Key">&quot;draftpostsize&quot;</param>
+                                    <param id="1" name="Value">&quot;14px&quot;</param>
+                                </action>
+                                <action id="7" name="Set CSS style" sid="194238626820715" type="TextBox">
+                                    <param id="0" name="Property name">&quot;background&quot;</param>
+                                    <param id="1" name="Value">&quot;#fff&quot;</param>
+                                </action>
+                                <action id="7" name="Set CSS style" sid="505182881764938" type="TextBox">
+                                    <param id="0" name="Property name">&quot;color&quot;</param>
+                                    <param id="1" name="Value">&quot;#000&quot;</param>
+                                </action>
+                                <action id="0" name="Set local value" sid="459853700204777" type="WebStorage">
+                                    <param id="0" name="Key">&quot;postbackground&quot;</param>
+                                    <param id="1" name="Value">&quot;#fff&quot;</param>
+                                </action>
+                                <action id="0" name="Set local value" sid="667311883823832" type="WebStorage">
+                                    <param id="0" name="Key">&quot;postcolor&quot;</param>
+                                    <param id="1" name="Value">&quot;#000&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="772806801863186" title="Mode: Quote/Phrase">
                     <sub-events>
                         <event-block sid="847084559622846">
                             <conditions>
@@ -841,7 +845,7 @@
                         </event-block>
                     </sub-events>
                 </event-group>
-                <event-group description="" sid="245439866675478" title="Peep mode">
+                <event-group description="" sid="245439866675478" title="Mode: Peep">
                     <sub-events>
                         <event-block sid="981300589910737">
                             <conditions>
@@ -1071,41 +1075,45 @@
                         </event-block>
                     </sub-events>
                 </event-group>
-                <event-block sid="244790966392702">
-                    <conditions>
-                        <condition id="-14" name="Compare variable" sid="716458623618473" type="System">
-                            <param id="0" name="Variable">Mode</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">6</param>
-                        </condition>
-                        <condition id="-4" name="Trigger once while true" sid="456261050264534" type="System" />
-                    </conditions>
-                    <actions>
-                        <action id="-3" name="Set position" sid="212098676439216" type="mode_selector">
-                            <param id="0" name="X">future.X</param>
-                            <param id="1" name="Y">future.Y + 27</param>
-                        </action>
-                        <action id="0" name="Set text" sid="429571099163898" type="Mode">
-                            <param id="0" name="Text">&quot;Mode: Future Insight&quot;</param>
-                        </action>
-                        <action id="7" name="Set CSS style" sid="359718687725411" type="TextBox">
-                            <param id="0" name="Property name">&quot;font-size&quot;</param>
-                            <param id="1" name="Value">&quot;50px&quot;</param>
-                        </action>
-                        <action id="0" name="Set local value" sid="440916108681001" type="WebStorage">
-                            <param id="0" name="Key">&quot;draftpostsize&quot;</param>
-                            <param id="1" name="Value">&quot;50px&quot;</param>
-                        </action>
-                        <action id="7" name="Set CSS style" sid="961820938860384" type="TextBox">
-                            <param id="0" name="Property name">&quot;background&quot;</param>
-                            <param id="1" name="Value">&quot;url(futureinsight.png)&quot;</param>
-                        </action>
-                        <action id="7" name="Set CSS style" sid="893387960618970" type="TextBox">
-                            <param id="0" name="Property name">&quot;color&quot;</param>
-                            <param id="1" name="Value">&quot;#fff&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
+                <event-group description="" sid="683260606255940" title="Mode: Future Insight">
+                    <sub-events>
+                        <event-block sid="244790966392702">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="716458623618473" type="System">
+                                    <param id="0" name="Variable">Mode</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">6</param>
+                                </condition>
+                                <condition id="-4" name="Trigger once while true" sid="456261050264534" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Set position" sid="212098676439216" type="mode_selector">
+                                    <param id="0" name="X">future.X</param>
+                                    <param id="1" name="Y">future.Y + 27</param>
+                                </action>
+                                <action id="0" name="Set text" sid="429571099163898" type="Mode">
+                                    <param id="0" name="Text">&quot;Mode: Future Insight&quot;</param>
+                                </action>
+                                <action id="7" name="Set CSS style" sid="359718687725411" type="TextBox">
+                                    <param id="0" name="Property name">&quot;font-size&quot;</param>
+                                    <param id="1" name="Value">&quot;50px&quot;</param>
+                                </action>
+                                <action id="0" name="Set local value" sid="440916108681001" type="WebStorage">
+                                    <param id="0" name="Key">&quot;draftpostsize&quot;</param>
+                                    <param id="1" name="Value">&quot;50px&quot;</param>
+                                </action>
+                                <action id="7" name="Set CSS style" sid="961820938860384" type="TextBox">
+                                    <param id="0" name="Property name">&quot;background&quot;</param>
+                                    <param id="1" name="Value">&quot;url(futureinsight.png)&quot;</param>
+                                </action>
+                                <action id="7" name="Set CSS style" sid="893387960618970" type="TextBox">
+                                    <param id="0" name="Property name">&quot;color&quot;</param>
+                                    <param id="1" name="Value">&quot;#fff&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
             </sub-events>
         </event-group>
         <event-group description="" sid="862204485292957" title="Keyboard shortcuts">
