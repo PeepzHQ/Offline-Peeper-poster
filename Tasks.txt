@@ -5,6 +5,8 @@ HTML header
 "Beta" label
 Full HTML
 Prevent duplicate post
+Convert existing HTML/XML posts into JSON
+
 Autosave in statusbar
 Settings page
 Settings: autosave
