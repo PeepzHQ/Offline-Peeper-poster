@@ -1,7 +1,7 @@
 * Added FrameworkJS (with Bootstrap and its Material Design theme)
 * Statusbar with white text color declared
 * rename "Future Preview" to "Future Insight"
-* Improved code grouping
+* Improved code grouping (with issues, putting the phrase mode as default)
 
 HTML header
 HTML post-type switcher, with tooltips on tab menu
