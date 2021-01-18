@@ -1086,7 +1086,7 @@
                             <param id="1" name="Y">future.Y + 27</param>
                         </action>
                         <action id="0" name="Set text" sid="429571099163898" type="Mode">
-                            <param id="0" name="Text">&quot;Mode: Future Preview&quot;</param>
+                            <param id="0" name="Text">&quot;Mode: Future Insight&quot;</param>
                         </action>
                         <action id="7" name="Set CSS style" sid="359718687725411" type="TextBox">
                             <param id="0" name="Property name">&quot;font-size&quot;</param>
@@ -1098,7 +1098,7 @@
                         </action>
                         <action id="7" name="Set CSS style" sid="961820938860384" type="TextBox">
                             <param id="0" name="Property name">&quot;background&quot;</param>
-                            <param id="1" name="Value">&quot;url(futurepreview.png)&quot;</param>
+                            <param id="1" name="Value">&quot;url(futureinsight.png)&quot;</param>
                         </action>
                         <action id="7" name="Set CSS style" sid="893387960618970" type="TextBox">
                             <param id="0" name="Property name">&quot;color&quot;</param>

@@ -2,10 +2,15 @@
 * Statusbar with white text color declared
 
 HTML header
+HTML post-type switcher, with tooltips on tab menu
 "Beta" label
+When choosing image, use Material modal
+Phrase authors using Material modal
 Full HTML
 Prevent duplicate post
-Convert existing HTML/XML posts into JSON
+Dont show the dialog that C/Peeper has been created if this folder is already there
+Convert existing HTML/XML posts into JSON (format that joints both Peepeth's and Fritter JSON)
+Choose target, while still supporting OmniLink: Peeper, Peepeth, Fritter
 
 Autosave in statusbar
 Settings page
