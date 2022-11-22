@@ -3,6 +3,11 @@
 * rename "Future Preview" to "Future Insight"
 * Improved code grouping (with issues, putting the phrase mode as default)
 
+Migrate from XML to JSON
+Import from Peepeth and Fritter
+Post listing
+Edit posts
+
 HTML header
 HTML post-type switcher, with tooltips on tab menu
 "Beta" label
@@ -12,7 +17,7 @@ Full HTML
 Prevent duplicate post
 Dont show the dialog that C/Peeper has been created if this folder is already there
 Convert existing HTML/XML posts into JSON (format that joints both Peepeth's and Fritter JSON)
-Choose target, while still supporting OmniLink: Peeper, Peepeth, Fritter
+Choose target, while still supporting OmniLink: Peepeth, Fritter, OmniNotes
 
 Autosave in statusbar
 Settings page

@@ -1,0 +1,1471 @@
+  File: ./.file-timestamps
+  Size: 0         	Blocks: 0          IO Block: 4096   regular empty file
+Device: 824h/2084d	Inode: 1166210     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-22 15:41:33.556807800 -0300
+Modify: 2022-11-22 15:41:33.556807800 -0300
+Change: 2022-11-22 15:41:33.556807800 -0300
+ Birth: -  File: ./.git/COMMIT_EDITMSG
+  Size: 74        	Blocks: 1          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 970853      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-22 15:39:31.441422000 -0300
+Modify: 2021-01-17 22:56:05.695027000 -0300
+Change: 2022-11-22 13:34:42.112206900 -0300
+ Birth: -  File: ./.git/config
+  Size: 320       	Blocks: 1          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 974976      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-22 15:39:31.442830800 -0300
+Modify: 2021-01-06 02:21:57.810663000 -0300
+Change: 2022-11-22 13:34:42.565637800 -0300
+ Birth: -  File: ./.git/description
+  Size: 73        	Blocks: 1          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 970830      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-22 15:39:31.438176900 -0300
+Modify: 2021-01-06 02:21:51.482624000 -0300
+Change: 2022-11-22 13:34:41.985653500 -0300
+ Birth: -  File: ./.git/HEAD
+  Size: 23        	Blocks: 1          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 974993      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-22 15:39:31.461115100 -0300
+Modify: 2021-01-06 02:21:57.797663000 -0300
+Change: 2022-11-22 13:34:42.619963000 -0300
+ Birth: -  File: ./.git/hooks/applypatch-msg.sample
+  Size: 478       	Blocks: 1          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 970832      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-22 15:39:33.822251500 -0300
+Modify: 2021-01-06 02:21:51.484624000 -0300
+Change: 2022-11-22 13:34:41.992176800 -0300
+ Birth: -  File: ./.git/hooks/commit-msg.sample
+  Size: 896       	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 970833      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-22 15:39:33.879870100 -0300
+Modify: 2021-01-06 02:21:51.485625000 -0300
+Change: 2022-11-22 13:34:41.997188500 -0300
+ Birth: -  File: ./.git/hooks/fsmonitor-watchman.sample
+  Size: 4655      	Blocks: 16         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 970834      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-22 15:39:33.904535200 -0300
+Modify: 2021-01-06 02:21:51.487625000 -0300
+Change: 2022-11-22 13:34:42.002817800 -0300
+ Birth: -  File: ./.git/hooks/post-update.sample
+  Size: 189       	Blocks: 1          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 970835      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-22 15:39:33.905863000 -0300
+Modify: 2021-01-06 02:21:51.488626000 -0300
+Change: 2022-11-22 13:34:42.009032800 -0300
+ Birth: -  File: ./.git/hooks/pre-applypatch.sample
+  Size: 424       	Blocks: 1          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 970836      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-22 15:39:33.907103000 -0300
+Modify: 2021-01-06 02:21:51.490626000 -0300
+Change: 2022-11-22 13:34:42.013899000 -0300
+ Birth: -  File: ./.git/hooks/pre-commit.sample
+  Size: 1643      	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 970837      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-22 15:39:33.923024300 -0300
+Modify: 2021-01-06 02:21:51.492417000 -0300
+Change: 2022-11-22 13:34:42.018903100 -0300
+ Birth: -  File: ./.git/hooks/pre-merge-commit.sample
+  Size: 416       	Blocks: 1          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 970838      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-22 15:39:33.924261000 -0300
+Modify: 2021-01-06 02:21:51.493416000 -0300
+Change: 2022-11-22 13:34:42.025402000 -0300
+ Birth: -  File: ./.git/hooks/pre-push.sample
+  Size: 1374      	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 970839      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-22 15:39:33.934917000 -0300
+Modify: 2021-01-06 02:21:51.494415000 -0300
+Change: 2022-11-22 13:34:42.032070200 -0300
+ Birth: -  File: ./.git/hooks/pre-rebase.sample
+  Size: 4898      	Blocks: 16         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 970840      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-22 15:39:33.949637700 -0300
+Modify: 2021-01-06 02:21:51.496477000 -0300
+Change: 2022-11-22 13:34:42.037571000 -0300
+ Birth: -  File: ./.git/hooks/pre-receive.sample
+  Size: 544       	Blocks: 2          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 970841      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-22 15:39:33.950891100 -0300
+Modify: 2021-01-06 02:21:51.497479000 -0300
+Change: 2022-11-22 13:34:42.044376300 -0300
+ Birth: -  File: ./.git/hooks/prepare-commit-msg.sample
+  Size: 1492      	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 970842      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-22 15:39:33.956042700 -0300
+Modify: 2021-01-06 02:21:51.499112000 -0300
+Change: 2022-11-22 13:34:42.050477800 -0300
+ Birth: -  File: ./.git/hooks/update.sample
+  Size: 3650      	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 970843      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-22 15:39:33.979648900 -0300
+Modify: 2021-01-06 02:21:51.500549000 -0300
+Change: 2022-11-22 13:34:42.057000600 -0300
+ Birth: -  File: ./.git/index
+  Size: 15897     	Blocks: 32         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 970829      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-22 15:39:31.430943700 -0300
+Modify: 2021-01-17 22:56:05.679400000 -0300
+Change: 2022-11-22 13:34:41.980083300 -0300
+ Birth: -  File: ./.git/info/exclude
+  Size: 240       	Blocks: 1          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 970845      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 14:10:13.656177000 -0300
+Modify: 2021-01-06 02:21:51.502549000 -0300
+Change: 2022-11-22 13:34:42.066398000 -0300
+ Birth: -  File: ./.git/logs/HEAD
+  Size: 939       	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 974992      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.490121000 -0300
+Modify: 2021-01-17 22:56:05.710650000 -0300
+Change: 2022-11-22 13:34:42.612741000 -0300
+ Birth: -  File: ./.git/logs/refs/heads/master
+  Size: 939       	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 974991      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.487878000 -0300
+Modify: 2021-01-17 22:56:05.710650000 -0300
+Change: 2022-11-22 13:34:42.599192300 -0300
+ Birth: -  File: ./.git/logs/refs/remotes/origin/HEAD
+  Size: 219       	Blocks: 1          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 974989      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.484627000 -0300
+Modify: 2021-01-06 02:21:57.794661000 -0300
+Change: 2022-11-22 13:34:42.582833000 -0300
+ Birth: -  File: ./.git/objects/0d/48173c15809228b2da2ea43e05b91ff8389fe1
+  Size: 184       	Blocks: 1          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 974957      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.459757000 -0300
+Modify: 2021-01-17 22:47:22.538857000 -0300
+Change: 2022-11-22 13:34:42.466368900 -0300
+ Birth: -  File: ./.git/objects/12/75e49cb576b92cfcd0d7608759e33ae79845a3
+  Size: 196       	Blocks: 1          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 970878      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.437398000 -0300
+Modify: 2021-01-17 22:23:26.908574000 -0300
+Change: 2022-11-22 13:34:42.352190400 -0300
+ Birth: -  File: ./.git/objects/13/b8242e37eb928a14cd6ba50de44e71a7ea28da
+  Size: 518       	Blocks: 2          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 970858      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.399866000 -0300
+Modify: 2021-01-17 22:56:05.413101000 -0300
+Change: 2022-11-22 13:34:42.132951800 -0300
+ Birth: -  File: ./.git/objects/15/b3137f705aabbb94a84fdeede742b4c5192def
+  Size: 463       	Blocks: 1          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 970866      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 14:10:11.432388000 -0300
+Modify: 2021-01-17 22:56:05.679400000 -0300
+Change: 2022-11-22 13:34:42.181118600 -0300
+ Birth: -  File: ./.git/objects/1e/8bf6d6ddbc13086be6bcdc58e9e67bd97f0f0b
+  Size: 307       	Blocks: 1          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 970864      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 14:10:11.559806000 -0300
+Modify: 2021-01-17 22:56:05.679400000 -0300
+Change: 2022-11-22 13:34:42.169206600 -0300
+ Birth: -  File: ./.git/objects/37/6ebf1b868b034de4b4a00947a508f5da4efbae
+  Size: 522       	Blocks: 2          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 974955      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.457793000 -0300
+Modify: 2021-01-17 22:53:25.394572000 -0300
+Change: 2022-11-22 13:34:42.452895400 -0300
+ Birth: -  File: ./.git/objects/39/f5818874b8ad98665747a79460db409bece227
+  Size: 308       	Blocks: 1          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 974973      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.477127000 -0300
+Modify: 2021-01-17 22:53:25.646368000 -0300
+Change: 2022-11-22 13:34:42.541524600 -0300
+ Birth: -  File: ./.git/objects/4e/498e3019c742b1e673a298085f3a9ea10c0910
+  Size: 3327      	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 974943      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.450902000 -0300
+Modify: 2021-01-17 22:47:22.302861000 -0300
+Change: 2022-11-22 13:34:42.420573500 -0300
+ Birth: -  File: ./.git/objects/57/deba52d88e6de5cd88632d6113babde27a5f78
+  Size: 198       	Blocks: 1          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 974840      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.440187000 -0300
+Modify: 2021-01-17 22:53:25.661381000 -0300
+Change: 2022-11-22 13:34:42.364920700 -0300
+ Birth: -  File: ./.git/objects/70/faed939f077cc5696db2a4fb12ea929e7f7327
+  Size: 525       	Blocks: 2          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 970874      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.432856000 -0300
+Modify: 2021-01-17 22:23:26.520868000 -0300
+Change: 2022-11-22 13:34:42.332345800 -0300
+ Birth: -  File: ./.git/objects/72/69cf385b72cbeda176433ef0cd8c2a578be405
+  Size: 54321     	Blocks: 112        IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 974930      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.447871000 -0300
+Modify: 2021-01-17 22:47:22.298857000 -0300
+Change: 2022-11-22 13:34:42.409818600 -0300
+ Birth: -  File: ./.git/objects/76/22c8c1a1e5e98fc135fa0316da3b4ab52823e6
+  Size: 3326      	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 974964      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.464629000 -0300
+Modify: 2021-01-17 22:53:25.410198000 -0300
+Change: 2022-11-22 13:34:42.494786700 -0300
+ Birth: -  File: ./.git/objects/76/8db966bb59a905a73fbc6b71de6893c97b804f
+  Size: 462       	Blocks: 1          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 974963      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.463553000 -0300
+Modify: 2021-01-17 22:47:22.551862000 -0300
+Change: 2022-11-22 13:34:42.487269400 -0300
+ Birth: -  File: ./.git/objects/7d/23ac7ddcfead5a063031aad18f8d236a7a77ae
+  Size: 307       	Blocks: 1          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 974961      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.461638000 -0300
+Modify: 2021-01-17 22:47:22.547860000 -0300
+Change: 2022-11-22 13:34:42.477824900 -0300
+ Birth: -  File: ./.git/objects/8b/11efa30f079e55255684a4b0e6f397c87f2054
+  Size: 1117      	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 974865      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 14:10:11.578867000 -0300
+Modify: 2021-01-17 22:47:22.543971000 -0300
+Change: 2022-11-22 13:34:42.397023700 -0300
+ Birth: -  File: ./.git/objects/8b/a264326f0d751d3c5c9d48daf5d13d9e4c6c8c
+  Size: 481       	Blocks: 1          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 974859      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.444656000 -0300
+Modify: 2021-01-17 22:47:22.290629000 -0300
+Change: 2022-11-22 13:34:42.386715100 -0300
+ Birth: -  File: ./.git/objects/8c/62fc32bbfda721fb8355647126cc7ee5c66b37
+  Size: 213       	Blocks: 1          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 970868      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.412958000 -0300
+Modify: 2021-01-17 22:47:22.566863000 -0300
+Change: 2022-11-22 13:34:42.194656500 -0300
+ Birth: -  File: ./.git/objects/9e/c3502aefcad92084d2b8ff7b5938160abd4d5e
+  Size: 183       	Blocks: 1          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 970862      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 14:10:11.569841000 -0300
+Modify: 2021-01-17 22:56:05.663777000 -0300
+Change: 2022-11-22 13:34:42.159242000 -0300
+ Birth: -  File: ./.git/objects/a2/82d13ef4e0ef501a7821ee7bf543d656e8b67d
+  Size: 744       	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 974969      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.472085000 -0300
+Modify: 2021-01-17 22:53:25.410198000 -0300
+Change: 2022-11-22 13:34:42.517892400 -0300
+ Birth: -  File: ./.git/objects/ad/917607028db6ae1a6f214deafe8617de4adfbb
+  Size: 703       	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 974951      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.455665000 -0300
+Modify: 2021-01-17 22:47:22.310859000 -0300
+Change: 2022-11-22 13:34:42.443411000 -0300
+ Birth: -  File: ./.git/objects/ba/fc79f8765228c79e13b16bb51e66025d6080d7
+  Size: 615       	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 974949      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.453118000 -0300
+Modify: 2021-01-17 22:47:22.306861000 -0300
+Change: 2022-11-22 13:34:42.432136800 -0300
+ Birth: -  File: ./.git/objects/ca/2bdc6cb9bbf157427d1702255969f8bd885287
+  Size: 54124     	Blocks: 112        IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 974966      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.467942000 -0300
+Modify: 2021-01-17 22:53:25.394572000 -0300
+Change: 2022-11-22 13:34:42.507646700 -0300
+ Birth: -  File: ./.git/objects/df/4aaad2bb304315970890b7b166cc9baaacda4e
+  Size: 183       	Blocks: 1          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 974971      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.474454000 -0300
+Modify: 2021-01-17 22:53:25.629737000 -0300
+Change: 2022-11-22 13:34:42.530119200 -0300
+ Birth: -  File: ./.git/objects/e2/e6edf4d6615e6e5d7da20521011abffc1de3cf
+  Size: 463       	Blocks: 1          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 970876      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.435858000 -0300
+Modify: 2021-01-17 22:23:26.877324000 -0300
+Change: 2022-11-22 13:34:42.342614900 -0300
+ Birth: -  File: ./.git/objects/e7/2b419a22a784226b95c12420395f7cdcef4fcb
+  Size: 463       	Blocks: 1          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 974975      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.479246000 -0300
+Modify: 2021-01-17 22:53:25.646368000 -0300
+Change: 2022-11-22 13:34:42.551274200 -0300
+ Birth: -  File: ./.git/objects/ec/ae54476529be432cf7a4a084fe085cc73a53ce
+  Size: 187       	Blocks: 1          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 970856      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 14:10:11.423353000 -0300
+Modify: 2021-01-17 22:56:05.695027000 -0300
+Change: 2022-11-22 13:34:42.119998200 -0300
+ Birth: -  File: ./.git/objects/f6/02df744c7adda3107d41dcca030a5e7851c38c
+  Size: 384       	Blocks: 1          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 974846      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.442428000 -0300
+Modify: 2021-01-17 22:47:22.127616000 -0300
+Change: 2022-11-22 13:34:42.375591600 -0300
+ Birth: -  File: ./.git/objects/fd/2453a4240ca938f793d453545360d11bdb39db
+  Size: 768       	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 970860      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.402353000 -0300
+Modify: 2021-01-17 22:56:05.413101000 -0300
+Change: 2022-11-22 13:34:42.147868200 -0300
+ Birth: -  File: ./.git/objects/pack/pack-3417b118d07b3626bc5a36c482321d1c85aeef72.idx
+  Size: 10900     	Blocks: 24         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 970871      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 14:10:11.413321000 -0300
+Modify: 2021-01-06 02:21:57.720753000 -0300
+Change: 2022-11-22 13:34:42.315124600 -0300
+ Birth: -  File: ./.git/objects/pack/pack-3417b118d07b3626bc5a36c482321d1c85aeef72.pack
+  Size: 2584934   	Blocks: 5056       IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 970870      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 14:10:11.578867000 -0300
+Modify: 2021-01-17 22:47:22.132615000 -0300
+Change: 2022-11-22 13:34:42.308148300 -0300
+ Birth: -  File: ./.git/packed-refs
+  Size: 1058      	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 974979      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-22 15:39:31.458903700 -0300
+Modify: 2021-01-06 02:21:57.785661000 -0300
+Change: 2022-11-22 13:34:42.570149500 -0300
+ Birth: -  File: ./.git/refs/heads/master
+  Size: 41        	Blocks: 1          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 970848      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-22 15:41:29.938456200 -0300
+Modify: 2021-01-17 22:56:05.710650000 -0300
+Change: 2022-11-22 13:34:42.078173000 -0300
+ Birth: -  File: ./.git/refs/remotes/origin/HEAD
+  Size: 32        	Blocks: 1          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 970852      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.392575000 -0300
+Modify: 2021-01-06 02:21:57.794661000 -0300
+Change: 2022-11-22 13:34:42.095758700 -0300
+ Birth: -  File: ./.git/tgitchangelist
+  Size: 0         	Blocks: 0          IO Block: 4096   regular empty file
+Device: 824h/2084d	Inode: 974994      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.491753000 -0300
+Modify: 2021-01-17 22:56:06.652115000 -0300
+Change: 2022-11-22 13:34:42.625708300 -0300
+ Birth: -  File: ./.gitignore
+  Size: 13        	Blocks: 1          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 974995      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-22 15:39:23.906044300 -0300
+Modify: 2021-01-06 02:21:57.817663000 -0300
+Change: 2022-11-22 13:34:42.632274400 -0300
+ Birth: -  File: ./browserconfig.xml
+  Size: 282       	Blocks: 1          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 975812      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-22 15:41:30.433970700 -0300
+Modify: 2021-01-06 02:21:57.839665000 -0300
+Change: 2022-11-22 13:34:42.821809500 -0300
+ Birth: -  File: ./css/app-common.css
+  Size: 608       	Blocks: 2          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1003084     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-22 15:41:30.434607000 -0300
+Modify: 2021-01-06 02:21:57.841274000 -0300
+Change: 2022-11-22 13:34:42.862051200 -0300
+ Birth: -  File: ./css/app-custom.css
+  Size: 0         	Blocks: 0          IO Block: 4096   regular empty file
+Device: 824h/2084d	Inode: 1005895     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.522571000 -0300
+Modify: 2021-01-06 02:21:57.842272000 -0300
+Change: 2022-11-22 13:34:42.877717800 -0300
+ Birth: -  File: ./css/dark-common.css
+  Size: 2910      	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1005956     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-22 15:41:30.440936700 -0300
+Modify: 2021-01-06 02:21:57.843272000 -0300
+Change: 2022-11-22 13:34:42.886915300 -0300
+ Birth: -  File: ./css/page-common.css
+  Size: 19088     	Blocks: 40         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1029359     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-22 15:41:30.450956800 -0300
+Modify: 2021-01-06 02:21:57.843272000 -0300
+Change: 2022-11-22 13:34:42.911763800 -0300
+ Birth: -  File: ./css/page-custom.css
+  Size: 915       	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1029464     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.524873000 -0300
+Modify: 2021-01-06 02:21:57.844272000 -0300
+Change: 2022-11-22 13:34:42.917243200 -0300
+ Birth: -  File: ./Fonts/Material Icons/font.css
+  Size: 875       	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 975000      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-22 15:41:30.022026800 -0300
+Modify: 2021-01-06 02:21:57.819663000 -0300
+Change: 2022-11-22 13:34:42.645206800 -0300
+ Birth: -  File: ./Fonts/Material Icons/font.eot
+  Size: 143258    	Blocks: 280        IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 975001      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-22 15:41:30.181281300 -0300
+Modify: 2021-01-06 02:21:57.821664000 -0300
+Change: 2022-11-22 13:34:42.677704500 -0300
+ Birth: -  File: ./Fonts/Material Icons/font.ttf
+  Size: 128180    	Blocks: 256        IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 975002      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-22 15:41:30.221129000 -0300
+Modify: 2021-01-06 02:21:57.823664000 -0300
+Change: 2022-11-22 13:34:42.685296000 -0300
+ Birth: -  File: ./Fonts/Material Icons/font.woff
+  Size: 57620     	Blocks: 120        IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 975003      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-22 15:41:30.227307100 -0300
+Modify: 2021-01-06 02:21:57.825664000 -0300
+Change: 2022-11-22 13:34:42.693206400 -0300
+ Birth: -  File: ./Fonts/Material Icons/font.woff2
+  Size: 44300     	Blocks: 88         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 975004      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-22 15:41:30.245349800 -0300
+Modify: 2021-01-06 02:21:57.826664000 -0300
+Change: 2022-11-22 13:34:42.699485900 -0300
+ Birth: -  File: ./Fonts/Roboto/Apache License.txt
+  Size: 11523     	Blocks: 24         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 975006      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-22 15:41:30.281406100 -0300
+Modify: 2021-01-06 02:21:57.827665000 -0300
+Change: 2022-11-22 13:34:42.711703600 -0300
+ Birth: -  File: ./Fonts/Roboto/font.css
+  Size: 1839      	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 975007      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-22 15:41:30.292514900 -0300
+Modify: 2021-01-06 02:21:57.828664000 -0300
+Change: 2022-11-22 13:34:42.718614700 -0300
+ Birth: -  File: ./Fonts/Roboto/roboto-cyrillic.woff2
+  Size: 9996      	Blocks: 24         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 975008      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-22 15:41:30.332316900 -0300
+Modify: 2021-01-06 02:21:57.829664000 -0300
+Change: 2022-11-22 13:34:42.726233900 -0300
+ Birth: -  File: ./Fonts/Roboto/roboto-cyrillicext.woff2
+  Size: 15832     	Blocks: 32         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 975011      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-22 15:41:30.337537500 -0300
+Modify: 2021-01-06 02:21:57.829664000 -0300
+Change: 2022-11-22 13:34:42.732217800 -0300
+ Birth: -  File: ./Fonts/Roboto/roboto-greek.woff2
+  Size: 7208      	Blocks: 16         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 975012      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-22 15:41:30.344359300 -0300
+Modify: 2021-01-06 02:21:57.830667000 -0300
+Change: 2022-11-22 13:34:42.738273700 -0300
+ Birth: -  File: ./Fonts/Roboto/roboto-greekext.woff2
+  Size: 1432      	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 975013      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-22 15:41:30.353183100 -0300
+Modify: 2021-01-06 02:21:57.831665000 -0300
+Change: 2022-11-22 13:34:42.744162000 -0300
+ Birth: -  File: ./Fonts/Roboto/roboto-latin.woff2
+  Size: 14584     	Blocks: 32         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 975014      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-22 15:41:30.362501700 -0300
+Modify: 2021-01-06 02:21:57.832666000 -0300
+Change: 2022-11-22 13:34:42.749493600 -0300
+ Birth: -  File: ./Fonts/Roboto/roboto-latinext.woff2
+  Size: 12008     	Blocks: 24         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 975015      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-22 15:41:30.370221500 -0300
+Modify: 2021-01-06 02:21:57.833666000 -0300
+Change: 2022-11-22 13:34:42.756277900 -0300
+ Birth: -  File: ./Fonts/Roboto/roboto-vietnamese.woff2
+  Size: 4896      	Blocks: 16         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 975016      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-22 15:41:30.376532800 -0300
+Modify: 2021-01-06 02:21:57.834664000 -0300
+Change: 2022-11-22 13:34:42.763155300 -0300
+ Birth: -  File: ./Fonts/Text Me One/font.css
+  Size: 713       	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 975021      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-22 15:41:30.404716500 -0300
+Modify: 2021-01-06 02:21:57.837665000 -0300
+Change: 2022-11-22 13:34:42.780189000 -0300
+ Birth: -  File: ./Fonts/Text Me One/OFL.txt
+  Size: 4498      	Blocks: 16         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 975020      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-22 15:41:30.390792000 -0300
+Modify: 2021-01-06 02:21:57.836665000 -0300
+Change: 2022-11-22 13:34:42.774091900 -0300
+ Birth: -  File: ./Fonts/Text Me One/textmeone-latin.woff2
+  Size: 10736     	Blocks: 24         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 975022      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-22 15:41:30.415021100 -0300
+Modify: 2021-01-06 02:21:57.837665000 -0300
+Change: 2022-11-22 13:34:42.785956700 -0300
+ Birth: -  File: ./Fonts/Text Me One/textmeone-latinext.woff2
+  Size: 1460      	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 975023      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-22 15:41:30.427006400 -0300
+Modify: 2021-01-06 02:21:57.838665000 -0300
+Change: 2022-11-22 13:34:42.792623400 -0300
+ Birth: -  File: ./icon.png
+  Size: 22604     	Blocks: 48         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1029492     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-22 15:39:24.318540800 -0300
+Modify: 2021-01-06 02:21:57.845272000 -0300
+Change: 2022-11-22 13:34:42.925860100 -0300
+ Birth: -  File: ./icon.svg
+  Size: 9166      	Blocks: 24         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1029583     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-22 15:39:24.225717100 -0300
+Modify: 2021-01-06 02:21:57.846272000 -0300
+Change: 2022-11-22 13:34:42.930537300 -0300
+ Birth: -  File: ./img/bitcoin.svg
+  Size: 4253      	Blocks: 16         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1029586     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-06 11:52:55.775083000 -0300
+Modify: 2021-01-06 02:21:57.847275000 -0300
+Change: 2022-11-22 13:34:42.936769200 -0300
+ Birth: -  File: ./img/ethereum.png
+  Size: 147077    	Blocks: 288        IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1029601     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-06 11:52:54.971517000 -0300
+Modify: 2021-01-06 02:21:57.849273000 -0300
+Change: 2022-11-22 13:34:42.945887400 -0300
+ Birth: -  File: ./img/release-pre.png
+  Size: 310       	Blocks: 1          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1029746     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-06 11:52:54.926015000 -0300
+Modify: 2021-01-06 02:21:57.850273000 -0300
+Change: 2022-11-22 13:34:42.950522400 -0300
+ Birth: -  File: ./img/release-stable.png
+  Size: 372       	Blocks: 1          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1036293     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-06 11:52:54.878875000 -0300
+Modify: 2021-01-06 02:21:57.850273000 -0300
+Change: 2022-11-22 13:34:43.033019300 -0300
+ Birth: -  File: ./img/screenshots/1.png
+  Size: 41559     	Blocks: 88         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1056834     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.535008000 -0300
+Modify: 2021-01-06 02:21:57.852273000 -0300
+Change: 2022-11-22 13:34:43.049130900 -0300
+ Birth: -  File: ./img/screenshots/2.png
+  Size: 44669     	Blocks: 88         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1097733     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.536750000 -0300
+Modify: 2021-01-06 02:21:57.853273000 -0300
+Change: 2022-11-22 13:34:43.057197000 -0300
+ Birth: -  File: ./img/screenshots/3.png
+  Size: 81547     	Blocks: 160        IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1097734     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.539652000 -0300
+Modify: 2021-01-06 02:21:57.854275000 -0300
+Change: 2022-11-22 13:34:43.064215700 -0300
+ Birth: -  File: ./img/screenshots/4.png
+  Size: 49168     	Blocks: 104        IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1097735     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.541082000 -0300
+Modify: 2021-01-06 02:21:57.855277000 -0300
+Change: 2022-11-22 13:34:43.070599200 -0300
+ Birth: -  File: ./img/screenshots/5.png
+  Size: 138325    	Blocks: 272        IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1097743     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.543073000 -0300
+Modify: 2021-01-06 02:21:57.857276000 -0300
+Change: 2022-11-22 13:34:43.080783100 -0300
+ Birth: -  File: ./img/showcase/100x100.png
+  Size: 256       	Blocks: 1          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1097747     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.545187000 -0300
+Modify: 2021-01-06 02:21:57.882278000 -0300
+Change: 2022-11-22 13:34:43.091598800 -0300
+ Birth: -  File: ./img/showcase/400x350.png
+  Size: 2138      	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1097748     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.546068000 -0300
+Modify: 2021-01-06 02:21:57.884276000 -0300
+Change: 2022-11-22 13:34:43.097387800 -0300
+ Birth: -  File: ./img/showcase/fullwidth.png
+  Size: 483       	Blocks: 1          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1097749     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.546582000 -0300
+Modify: 2021-01-06 02:21:57.885277000 -0300
+Change: 2022-11-22 13:34:43.102869100 -0300
+ Birth: -  File: ./img/showcase/gittex.png
+  Size: 9154      	Blocks: 24         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1097750     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.547617000 -0300
+Modify: 2021-01-06 02:21:57.886276000 -0300
+Change: 2022-11-22 13:34:43.109786500 -0300
+ Birth: -  File: ./img/showcase/notestick.png
+  Size: 406       	Blocks: 1          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1097751     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.548268000 -0300
+Modify: 2021-01-06 02:21:57.886276000 -0300
+Change: 2022-11-22 13:34:43.114651900 -0300
+ Birth: -  File: ./img/showcase/pehtml.svg
+  Size: 2996      	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1097753     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.549209000 -0300
+Modify: 2021-01-06 02:21:57.887275000 -0300
+Change: 2022-11-22 13:34:43.121029200 -0300
+ Birth: -  File: ./img/showcase/plasnerd.png
+  Size: 10357     	Blocks: 24         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1097766     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.550258000 -0300
+Modify: 2021-01-06 02:21:57.888275000 -0300
+Change: 2022-11-22 13:34:43.127914400 -0300
+ Birth: -  File: ./img/showcase/ultracreator.png
+  Size: 27807     	Blocks: 56         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1097767     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.552613000 -0300
+Modify: 2021-01-06 02:21:57.889275000 -0300
+Change: 2022-11-22 13:34:43.133841000 -0300
+ Birth: -  File: ./img/showcase/universavpoke.png
+  Size: 2705      	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1097768     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.553700000 -0300
+Modify: 2021-01-06 02:21:57.890274000 -0300
+Change: 2022-11-22 13:34:43.140673400 -0300
+ Birth: -  File: ./img/social/ask.svg
+  Size: 941       	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1098979     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.555922000 -0300
+Modify: 2021-01-06 02:21:57.891275000 -0300
+Change: 2022-11-22 13:34:43.150510600 -0300
+ Birth: -  File: ./img/social/deviantart.svg
+  Size: 1034      	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1098989     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.556859000 -0300
+Modify: 2021-01-06 02:21:57.892275000 -0300
+Change: 2022-11-22 13:34:43.157539600 -0300
+ Birth: -  File: ./img/social/facebook.svg
+  Size: 1021      	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1107072     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.557797000 -0300
+Modify: 2021-01-06 02:21:57.893277000 -0300
+Change: 2022-11-22 13:34:43.163591100 -0300
+ Birth: -  File: ./img/social/github.svg
+  Size: 882       	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1107080     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.558716000 -0300
+Modify: 2021-01-06 02:21:57.893277000 -0300
+Change: 2022-11-22 13:34:43.168401600 -0300
+ Birth: -  File: ./img/social/twitter.svg
+  Size: 1264      	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1112633     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.559673000 -0300
+Modify: 2021-01-06 02:21:57.894276000 -0300
+Change: 2022-11-22 13:34:43.189053100 -0300
+ Birth: -  File: ./index.html
+  Size: 7589      	Blocks: 16         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1112637     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-22 15:39:23.976183000 -0300
+Modify: 2021-01-06 02:21:57.895280000 -0300
+Change: 2022-11-22 13:34:43.200247800 -0300
+ Birth: -  File: ./js/app.js
+  Size: 197       	Blocks: 1          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1112663     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.563402000 -0300
+Modify: 2021-01-06 02:21:57.899278000 -0300
+Change: 2022-11-22 13:34:43.212213700 -0300
+ Birth: -  File: ./js/page-common.js
+  Size: 2069      	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1112664     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.564413000 -0300
+Modify: 2021-01-06 02:21:57.900277000 -0300
+Change: 2022-11-22 13:34:43.217261600 -0300
+ Birth: -  File: ./js/ZeroFrame.js
+  Size: 3488      	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1112662     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.562923000 -0300
+Modify: 2021-01-06 02:21:57.898278000 -0300
+Change: 2022-11-22 13:34:43.207658300 -0300
+ Birth: -  File: ./manifest.json
+  Size: 760       	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1112831     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.565910000 -0300
+Modify: 2021-01-06 02:21:57.900277000 -0300
+Change: 2022-11-22 13:34:43.225811100 -0300
+ Birth: -  File: ./plugins/Bootstrap/css/bootstrap-grid.css
+  Size: 39555     	Blocks: 80         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1114932     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.569168000 -0300
+Modify: 2021-01-06 02:21:57.904278000 -0300
+Change: 2022-11-22 13:34:43.240937600 -0300
+ Birth: -  File: ./plugins/Bootstrap/css/bootstrap-grid.css.map
+  Size: 98559     	Blocks: 200        IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1114933     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.571047000 -0300
+Modify: 2021-01-06 02:21:57.906280000 -0300
+Change: 2022-11-22 13:34:43.249246600 -0300
+ Birth: -  File: ./plugins/Bootstrap/css/bootstrap-grid.min.css
+  Size: 28983     	Blocks: 64         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1114938     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.572441000 -0300
+Modify: 2021-01-06 02:21:57.908281000 -0300
+Change: 2022-11-22 13:34:43.257230300 -0300
+ Birth: -  File: ./plugins/Bootstrap/css/bootstrap-grid.min.css.map
+  Size: 68241     	Blocks: 136        IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1114941     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.574146000 -0300
+Modify: 2021-01-06 02:21:57.910278000 -0300
+Change: 2022-11-22 13:34:43.266048200 -0300
+ Birth: -  File: ./plugins/Bootstrap/css/bootstrap-reboot.css
+  Size: 5226      	Blocks: 16         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1120922     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.575274000 -0300
+Modify: 2021-01-06 02:21:57.911280000 -0300
+Change: 2022-11-22 13:34:43.274291800 -0300
+ Birth: -  File: ./plugins/Bootstrap/css/bootstrap-reboot.css.map
+  Size: 60752     	Blocks: 120        IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1120923     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.576665000 -0300
+Modify: 2021-01-06 02:21:57.912280000 -0300
+Change: 2022-11-22 13:34:43.281262900 -0300
+ Birth: -  File: ./plugins/Bootstrap/css/bootstrap-reboot.min.css
+  Size: 4026      	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1120924     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.578223000 -0300
+Modify: 2021-01-06 02:21:57.913279000 -0300
+Change: 2022-11-22 13:34:43.293591600 -0300
+ Birth: -  File: ./plugins/Bootstrap/css/bootstrap-reboot.min.css.map
+  Size: 26084     	Blocks: 56         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1120925     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.579276000 -0300
+Modify: 2021-01-06 02:21:57.916279000 -0300
+Change: 2022-11-22 13:34:43.300658700 -0300
+ Birth: -  File: ./plugins/Bootstrap/css/bootstrap.css
+  Size: 182626    	Blocks: 360        IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1120926     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.582057000 -0300
+Modify: 2021-01-06 02:21:57.917279000 -0300
+Change: 2022-11-22 13:34:43.311862400 -0300
+ Birth: -  File: ./plugins/Bootstrap/css/bootstrap.css.map
+  Size: 430003    	Blocks: 840        IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1120927     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.585883000 -0300
+Modify: 2021-01-06 02:21:57.920279000 -0300
+Change: 2022-11-22 13:34:43.330498700 -0300
+ Birth: -  File: ./plugins/Bootstrap/css/bootstrap.min.css
+  Size: 140942    	Blocks: 280        IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1120971     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.592415000 -0300
+Modify: 2021-01-06 02:21:57.922279000 -0300
+Change: 2022-11-22 13:34:43.342898500 -0300
+ Birth: -  File: ./plugins/Bootstrap/css/bootstrap.min.css.map
+  Size: 562427    	Blocks: 1104       IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1120983     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.594896000 -0300
+Modify: 2021-01-06 02:21:57.926279000 -0300
+Change: 2022-11-22 13:34:43.360467400 -0300
+ Birth: -  File: ./plugins/Bootstrap/js/bootstrap.min.js
+  Size: 51045     	Blocks: 104        IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1121137     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.613272000 -0300
+Modify: 2021-01-06 02:21:57.928280000 -0300
+Change: 2022-11-22 13:34:43.373349900 -0300
+ Birth: -  File: ./plugins/Bootstrap/js/bootstrap.min.js.map
+  Size: 176087    	Blocks: 344        IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1121139     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.615352000 -0300
+Modify: 2021-01-06 02:21:57.930278000 -0300
+Change: 2022-11-22 13:34:43.384106800 -0300
+ Birth: -  File: ./plugins/Bootstrap/themes/material/css/material.min.css
+  Size: 253309    	Blocks: 496        IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1121143     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.638513000 -0300
+Modify: 2021-01-06 02:21:57.936282000 -0300
+Change: 2022-11-22 13:34:43.404784500 -0300
+ Birth: -  File: ./plugins/Bootstrap/themes/material/css/material.min.css.map
+  Size: 654877    	Blocks: 1280       IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1121144     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.668224000 -0300
+Modify: 2021-01-06 02:21:57.941281000 -0300
+Change: 2022-11-22 13:34:43.421726300 -0300
+ Birth: -  File: ./plugins/Bootstrap/themes/material/js/material.min.js
+  Size: 36847     	Blocks: 72         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1121151     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.729840000 -0300
+Modify: 2021-01-06 02:21:57.944283000 -0300
+Change: 2022-11-22 13:34:43.435542100 -0300
+ Birth: -  File: ./plugins/Bootstrap/themes/material/js/material.min.js.map
+  Size: 166847    	Blocks: 328        IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1121152     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.730636000 -0300
+Modify: 2021-01-06 02:21:57.946279000 -0300
+Change: 2022-11-22 13:34:43.446018200 -0300
+ Birth: -  File: ./plugins/jQuery/jquery-3.3.1.min.map
+  Size: 132382    	Blocks: 264        IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1121315     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.759897000 -0300
+Modify: 2021-01-06 02:21:57.969250000 -0300
+Change: 2022-11-22 13:34:43.591760800 -0300
+ Birth: -  File: ./plugins/jQuery/jquery.min.js
+  Size: 86929     	Blocks: 176        IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1121316     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.775728000 -0300
+Modify: 2021-01-06 02:21:57.971251000 -0300
+Change: 2022-11-22 13:34:43.597996100 -0300
+ Birth: -  File: ./plugins/Popper.js/popper.min.js
+  Size: 20342     	Blocks: 40         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1121158     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.742907000 -0300
+Modify: 2021-01-06 02:21:57.949283000 -0300
+Change: 2022-11-22 13:34:43.468414300 -0300
+ Birth: -  File: ./plugins/UmbrellaJS/umbrella.min.js
+  Size: 8012      	Blocks: 16         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1121194     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.744568000 -0300
+Modify: 2021-01-06 02:21:57.950282000 -0300
+Change: 2022-11-22 13:34:43.480770800 -0300
+ Birth: -  File: ./plugins/VueJS/vue.js
+  Size: 86457     	Blocks: 176        IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1121197     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.746903000 -0300
+Modify: 2021-01-06 02:21:57.953283000 -0300
+Change: 2022-11-22 13:34:43.493417300 -0300
+ Birth: -  File: ./plugins/ZeroDevLib/.gitignore
+  Size: 13        	Blocks: 1          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1121200     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.748649000 -0300
+Modify: 2021-01-06 02:21:57.954280000 -0300
+Change: 2022-11-22 13:34:43.503446600 -0300
+ Birth: -  File: ./plugins/ZeroDevLib/main.js
+  Size: 448       	Blocks: 1          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1121216     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.757863000 -0300
+Modify: 2021-01-06 02:21:57.966249000 -0300
+Change: 2022-11-22 13:34:43.574168000 -0300
+ Birth: -  File: ./plugins/ZeroDevLib/package.json
+  Size: 632       	Blocks: 2          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1121217     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.758321000 -0300
+Modify: 2021-01-06 02:21:57.966249000 -0300
+Change: 2022-11-22 13:34:43.579820800 -0300
+ Birth: -  File: ./plugins/ZeroDevLib/RemoteZeroDB.js
+  Size: 2160      	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1121201     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.749071000 -0300
+Modify: 2021-01-06 02:21:57.955283000 -0300
+Change: 2022-11-22 13:34:43.510303100 -0300
+ Birth: -  File: ./plugins/ZeroDevLib/RemoteZeroFS.js
+  Size: 4702      	Blocks: 16         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1121202     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.749812000 -0300
+Modify: 2021-01-06 02:21:57.956285000 -0300
+Change: 2022-11-22 13:34:43.515525600 -0300
+ Birth: -  File: ./plugins/ZeroDevLib/ZeroAuth.js
+  Size: 2364      	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1121203     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.750594000 -0300
+Modify: 2021-01-06 02:21:57.957282000 -0300
+Change: 2022-11-22 13:34:43.521046100 -0300
+ Birth: -  File: ./plugins/ZeroDevLib/ZeroBigFiles.js
+  Size: 1240      	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1121206     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.751475000 -0300
+Modify: 2021-01-06 02:21:57.958280000 -0300
+Change: 2022-11-22 13:34:43.526725000 -0300
+ Birth: -  File: ./plugins/ZeroDevLib/ZeroDB.js
+  Size: 5686      	Blocks: 16         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1121207     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.752279000 -0300
+Modify: 2021-01-06 02:21:57.959280000 -0300
+Change: 2022-11-22 13:34:43.531879500 -0300
+ Birth: -  File: ./plugins/ZeroDevLib/ZeroFrame.js
+  Size: 2612      	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1121209     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.754227000 -0300
+Modify: 2021-01-06 02:21:57.960283000 -0300
+Change: 2022-11-22 13:34:43.545166500 -0300
+ Birth: -  File: ./plugins/ZeroDevLib/ZeroFS.js
+  Size: 6075      	Blocks: 16         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1121208     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.753375000 -0300
+Modify: 2021-01-06 02:21:57.960283000 -0300
+Change: 2022-11-22 13:34:43.538673900 -0300
+ Birth: -  File: ./plugins/ZeroDevLib/ZeroID.js
+  Size: 4543      	Blocks: 16         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1121211     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.755008000 -0300
+Modify: 2021-01-06 02:21:57.962250000 -0300
+Change: 2022-11-22 13:34:43.550560400 -0300
+ Birth: -  File: ./plugins/ZeroDevLib/ZeroOptional.js
+  Size: 3520      	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1121212     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.755746000 -0300
+Modify: 2021-01-06 02:21:57.962250000 -0300
+Change: 2022-11-22 13:34:43.557404200 -0300
+ Birth: -  File: ./plugins/ZeroDevLib/ZeroOptionalProxy.js
+  Size: 2002      	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1121213     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.756470000 -0300
+Modify: 2021-01-06 02:21:57.963249000 -0300
+Change: 2022-11-22 13:34:43.562645100 -0300
+ Birth: -  File: ./plugins/ZeroDevLib/ZeroPage.js
+  Size: 8407      	Blocks: 24         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1121214     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.757373000 -0300
+Modify: 2021-01-06 02:21:57.964253000 -0300
+Change: 2022-11-22 13:34:43.568076500 -0300
+ Birth: -  File: ./README.md
+  Size: 753       	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 975024      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-22 15:41:30.433429400 -0300
+Modify: 2021-01-06 02:21:57.839665000 -0300
+Change: 2022-11-22 13:34:42.802574800 -0300
+ Birth: -  File: ./recursive_files_timestamp.sh
+  Size: 1284      	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1166208     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-22 15:41:32.592567100 -0300
+Modify: 2022-02-21 16:19:46.119392000 -0300
+Change: 2022-11-22 15:41:26.883135600 -0300
+ Birth: -  File: ./source/Animations/future/Default/000.png
+  Size: 366       	Blocks: 1          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1121732     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.838132000 -0300
+Modify: 2021-01-06 02:21:57.975250000 -0300
+Change: 2022-11-22 13:34:43.635222800 -0300
+ Birth: -  File: ./source/Animations/mode_selector/Default/000.png
+  Size: 129       	Blocks: 1          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1122138     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.842178000 -0300
+Modify: 2021-01-06 02:21:57.977253000 -0300
+Change: 2022-11-22 13:34:43.681604800 -0300
+ Birth: -  File: ./source/Animations/peep/Default/000.png
+  Size: 326       	Blocks: 1          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1122142     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.845206000 -0300
+Modify: 2021-01-06 02:21:57.979251000 -0300
+Change: 2022-11-22 13:34:43.698142700 -0300
+ Birth: -  File: ./source/Animations/photo2/Default/000.png
+  Size: 155       	Blocks: 1          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165488     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.847624000 -0300
+Modify: 2021-01-06 02:21:57.982254000 -0300
+Change: 2022-11-22 13:34:43.723360200 -0300
+ Birth: -  File: ./source/Animations/post/Default/000.png
+  Size: 389       	Blocks: 1          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165491     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.850369000 -0300
+Modify: 2021-01-06 02:21:57.984254000 -0300
+Change: 2022-11-22 13:34:43.740405800 -0300
+ Birth: -  File: ./source/Animations/quote/Default/000.png
+  Size: 791       	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165494     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.853159000 -0300
+Modify: 2021-01-06 02:21:57.986922000 -0300
+Change: 2022-11-22 13:34:43.760588500 -0300
+ Birth: -  File: ./source/debug.log
+  Size: 3640      	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165598     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.984464000 -0300
+Modify: 2021-01-06 02:21:58.039789000 -0300
+Change: 2022-11-22 13:34:44.149037800 -0300
+ Birth: -  File: ./source/Event sheets/App sheet.uistate.xml
+  Size: 1202      	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165500     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.862997000 -0300
+Modify: 2021-01-17 22:55:19.957573000 -0300
+Change: 2022-11-22 13:34:43.813770500 -0300
+ Birth: -  File: ./source/Event sheets/App sheet.xml
+  Size: 175810    	Blocks: 344        IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165499     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.859600000 -0300
+Modify: 2021-01-17 22:55:19.941942000 -0300
+Change: 2022-11-22 13:34:43.806823500 -0300
+ Birth: -  File: ./source/Event sheets/Event sheet 0.xml
+  Size: 3573      	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165498     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.857959000 -0300
+Modify: 2021-01-17 22:46:33.239142000 -0300
+Change: 2022-11-22 13:34:43.792437000 -0300
+ Birth: -  File: ./source/Event sheets/Splash sheet.uistate.xml
+  Size: 843       	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165496     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.856442000 -0300
+Modify: 2021-01-17 22:46:33.254764000 -0300
+Change: 2022-11-22 13:34:43.779319900 -0300
+ Birth: -  File: ./source/Event sheets/Splash sheet.xml
+  Size: 3828      	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165497     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.857215000 -0300
+Modify: 2021-01-17 22:46:33.239142000 -0300
+Change: 2022-11-22 13:34:43.785138600 -0300
+ Birth: -  File: ./source/Files/img.png
+  Size: 198       	Blocks: 1          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165541     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.937502000 -0300
+Modify: 2021-01-06 02:21:58.011426000 -0300
+Change: 2022-11-22 13:34:43.957272200 -0300
+ Birth: -  File: ./source/Files/1.11.0.min.js
+  Size: 96385     	Blocks: 192        IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165504     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.868780000 -0300
+Modify: 2021-01-06 02:21:57.992922000 -0300
+Change: 2022-11-22 13:34:43.841328800 -0300
+ Birth: -  File: ./source/Files/app-custom.css
+  Size: 0         	Blocks: 0          IO Block: 4096   regular empty file
+Device: 824h/2084d	Inode: 1165505     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.869549000 -0300
+Modify: 2021-01-06 02:21:57.994076000 -0300
+Change: 2022-11-22 13:34:43.846127300 -0300
+ Birth: -  File: ./source/Files/bootstrap.min.js
+  Size: 51045     	Blocks: 104        IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165506     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.870776000 -0300
+Modify: 2021-01-06 02:21:57.995075000 -0300
+Change: 2022-11-22 13:34:43.853820300 -0300
+ Birth: -  File: ./source/Files/dark-common.css
+  Size: 2910      	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165507     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.871721000 -0300
+Modify: 2021-01-06 02:21:57.995075000 -0300
+Change: 2022-11-22 13:34:43.860202500 -0300
+ Birth: -  File: ./source/Files/font.css
+  Size: 875       	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165508     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.872574000 -0300
+Modify: 2021-01-06 02:21:57.996075000 -0300
+Change: 2022-11-22 13:34:43.865807500 -0300
+ Birth: -  File: ./source/Files/font.eot
+  Size: 143258    	Blocks: 280        IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165509     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.875176000 -0300
+Modify: 2021-01-06 02:21:57.998077000 -0300
+Change: 2022-11-22 13:34:43.876315000 -0300
+ Birth: -  File: ./source/Files/font.ttf
+  Size: 128180    	Blocks: 256        IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165510     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.897178000 -0300
+Modify: 2021-01-06 02:21:58.001075000 -0300
+Change: 2022-11-22 13:34:43.884811400 -0300
+ Birth: -  File: ./source/Files/font.woff
+  Size: 57620     	Blocks: 120        IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165511     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.909062000 -0300
+Modify: 2021-01-06 02:21:58.002075000 -0300
+Change: 2022-11-22 13:34:43.892644900 -0300
+ Birth: -  File: ./source/Files/font.woff2
+  Size: 44300     	Blocks: 88         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165512     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.910515000 -0300
+Modify: 2021-01-06 02:21:58.003078000 -0300
+Change: 2022-11-22 13:34:43.899594800 -0300
+ Birth: -  File: ./source/Files/futureinsight.png
+  Size: 370       	Blocks: 1          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165513     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.911250000 -0300
+Modify: 2021-01-06 02:21:58.004506000 -0300
+Change: 2022-11-22 13:34:43.906872600 -0300
+ Birth: -  File: ./source/Files/geo.png
+  Size: 318       	Blocks: 1          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165514     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.911790000 -0300
+Modify: 2021-01-06 02:21:58.004506000 -0300
+Change: 2022-11-22 13:34:43.911492400 -0300
+ Birth: -  File: ./source/Files/icon-114.png
+  Size: 25223     	Blocks: 56         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165515     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.912806000 -0300
+Modify: 2021-01-06 02:21:58.005507000 -0300
+Change: 2022-11-22 13:34:43.917031400 -0300
+ Birth: -  File: ./source/Files/icon-128.png
+  Size: 33382     	Blocks: 72         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165516     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.913801000 -0300
+Modify: 2021-01-06 02:21:58.006506000 -0300
+Change: 2022-11-22 13:34:43.924455100 -0300
+ Birth: -  File: ./source/Files/icon-16.png
+  Size: 1041      	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165517     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.914640000 -0300
+Modify: 2021-01-06 02:21:58.007841000 -0300
+Change: 2022-11-22 13:34:43.929694900 -0300
+ Birth: -  File: ./source/Files/icon-256.png
+  Size: 98347     	Blocks: 200        IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165518     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.915986000 -0300
+Modify: 2021-01-06 02:21:58.008840000 -0300
+Change: 2022-11-22 13:34:43.940891800 -0300
+ Birth: -  File: ./source/Files/icon-32.png
+  Size: 2967      	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165519     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.935776000 -0300
+Modify: 2021-01-06 02:21:58.009840000 -0300
+Change: 2022-11-22 13:34:43.946254100 -0300
+ Birth: -  File: ./source/Files/iconsfont.css
+  Size: 875       	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165530     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.936827000 -0300
+Modify: 2021-01-06 02:21:58.010840000 -0300
+Change: 2022-11-22 13:34:43.951831600 -0300
+ Birth: -  File: ./source/Files/loading-logo.png
+  Size: 9375      	Blocks: 24         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165549     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.938478000 -0300
+Modify: 2021-01-06 02:21:58.011426000 -0300
+Change: 2022-11-22 13:34:43.963199800 -0300
+ Birth: -  File: ./source/Files/loading.gif
+  Size: 8787      	Blocks: 24         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165550     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.939449000 -0300
+Modify: 2021-01-06 02:21:58.012425000 -0300
+Change: 2022-11-22 13:34:43.969287600 -0300
+ Birth: -  File: ./source/Files/logo.svg
+  Size: 4601      	Blocks: 16         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165555     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.940474000 -0300
+Modify: 2021-01-06 02:21:58.013425000 -0300
+Change: 2022-11-22 13:34:43.976089600 -0300
+ Birth: -  File: ./source/Files/material.min.css
+  Size: 253309    	Blocks: 496        IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165560     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.942100000 -0300
+Modify: 2021-01-06 02:21:58.016427000 -0300
+Change: 2022-11-22 13:34:43.989117600 -0300
+ Birth: -  File: ./source/Files/material.min.js
+  Size: 36847     	Blocks: 72         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165561     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.960242000 -0300
+Modify: 2021-01-06 02:21:58.017427000 -0300
+Change: 2022-11-22 13:34:43.996248100 -0300
+ Birth: -  File: ./source/Files/page-custom.css
+  Size: 0         	Blocks: 0          IO Block: 4096   regular empty file
+Device: 824h/2084d	Inode: 1165562     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.960838000 -0300
+Modify: 2021-01-06 02:21:58.018427000 -0300
+Change: 2022-11-22 13:34:44.001316300 -0300
+ Birth: -  File: ./source/Files/quotes.png
+  Size: 1055      	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165563     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.961702000 -0300
+Modify: 2021-01-06 02:21:58.019425000 -0300
+Change: 2022-11-22 13:34:44.006492500 -0300
+ Birth: -  File: ./source/Files/roboto-cyrillic.woff2
+  Size: 9996      	Blocks: 24         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165564     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.962660000 -0300
+Modify: 2021-01-06 02:21:58.020338000 -0300
+Change: 2022-11-22 13:34:44.012222100 -0300
+ Birth: -  File: ./source/Files/roboto-cyrillicext.woff2
+  Size: 15832     	Blocks: 32         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165565     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.963913000 -0300
+Modify: 2021-01-06 02:21:58.020338000 -0300
+Change: 2022-11-22 13:34:44.017602800 -0300
+ Birth: -  File: ./source/Files/roboto-greek.woff2
+  Size: 7208      	Blocks: 16         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165566     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.965033000 -0300
+Modify: 2021-01-06 02:21:58.021336000 -0300
+Change: 2022-11-22 13:34:44.024578700 -0300
+ Birth: -  File: ./source/Files/roboto-greekext.woff2
+  Size: 1432      	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165567     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.966312000 -0300
+Modify: 2021-01-06 02:21:58.022336000 -0300
+Change: 2022-11-22 13:34:44.029938500 -0300
+ Birth: -  File: ./source/Files/roboto-latin.woff2
+  Size: 14584     	Blocks: 32         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165568     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.967645000 -0300
+Modify: 2021-01-06 02:21:58.023336000 -0300
+Change: 2022-11-22 13:34:44.035829300 -0300
+ Birth: -  File: ./source/Files/roboto-latinext.woff2
+  Size: 12008     	Blocks: 24         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165569     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.968634000 -0300
+Modify: 2021-01-06 02:21:58.023336000 -0300
+Change: 2022-11-22 13:34:44.044507600 -0300
+ Birth: -  File: ./source/Files/roboto-vietnamese.woff2
+  Size: 4896      	Blocks: 16         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165570     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.969684000 -0300
+Modify: 2021-01-06 02:21:58.024336000 -0300
+Change: 2022-11-22 13:34:44.052079200 -0300
+ Birth: -  File: ./source/Files/robotofont.css
+  Size: 875       	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165571     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.970552000 -0300
+Modify: 2021-01-06 02:21:58.025337000 -0300
+Change: 2022-11-22 13:34:44.059136800 -0300
+ Birth: -  File: ./source/Files/script.js
+  Size: 97        	Blocks: 1          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165572     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.971172000 -0300
+Modify: 2021-01-06 02:21:58.026316000 -0300
+Change: 2022-11-22 13:34:44.065189200 -0300
+ Birth: -  File: ./source/Files/slick-theme.css
+  Size: 3349      	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165573     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.972136000 -0300
+Modify: 2021-01-06 02:21:58.026316000 -0300
+Change: 2022-11-22 13:34:44.072495200 -0300
+ Birth: -  File: ./source/Files/slick.css
+  Size: 1895      	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165574     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.973290000 -0300
+Modify: 2021-01-06 02:21:58.027790000 -0300
+Change: 2022-11-22 13:34:44.078379000 -0300
+ Birth: -  File: ./source/Files/slick.min.js
+  Size: 42864     	Blocks: 88         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165575     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.974562000 -0300
+Modify: 2021-01-06 02:21:58.028788000 -0300
+Change: 2022-11-22 13:34:44.085722600 -0300
+ Birth: -  File: ./source/Files/style.css
+  Size: 4004      	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165576     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.975493000 -0300
+Modify: 2021-01-06 02:21:58.029789000 -0300
+Change: 2022-11-22 13:34:44.092733300 -0300
+ Birth: -  File: ./source/Layouts/App.uistate.xml
+  Size: 1290      	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165582     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.981208000 -0300
+Modify: 2021-01-17 22:55:19.925917000 -0300
+Change: 2022-11-22 13:34:44.130205700 -0300
+ Birth: -  File: ./source/Layouts/App.xml
+  Size: 28058     	Blocks: 56         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165578     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.977906000 -0300
+Modify: 2021-01-06 02:21:58.032791000 -0300
+Change: 2022-11-22 13:34:44.104072800 -0300
+ Birth: -  File: ./source/Layouts/Layout 0.xml
+  Size: 11203     	Blocks: 24         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165579     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.978633000 -0300
+Modify: 2021-01-06 02:21:58.034790000 -0300
+Change: 2022-11-22 13:34:44.110316400 -0300
+ Birth: -  File: ./source/Layouts/Splash.uistate.xml
+  Size: 1274      	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165581     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.979981000 -0300
+Modify: 2021-01-17 22:55:19.925917000 -0300
+Change: 2022-11-22 13:34:44.124386800 -0300
+ Birth: -  File: ./source/Layouts/Splash.xml
+  Size: 3057      	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165580     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.979276000 -0300
+Modify: 2021-01-06 02:21:58.035790000 -0300
+Change: 2022-11-22 13:34:44.116532200 -0300
+ Birth: -  File: ./source/Offline Peeper poster.caproj
+  Size: 15146     	Blocks: 32         IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165502     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-06 11:53:02.464949000 -0300
+Modify: 2021-01-17 22:55:19.910292000 -0300
+Change: 2022-11-22 13:34:43.829468600 -0300
+ Birth: -  File: ./source/Offline Peeper poster.capx.backup1
+  Size: 658621    	Blocks: 1288       IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1121329     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-06 11:53:02.457317000 -0300
+Modify: 2021-01-17 22:55:19.879042000 -0300
+Change: 2022-11-22 13:34:43.625778900 -0300
+ Birth: -  File: ./source/Offline Peeper poster.uistate.xml
+  Size: 1911      	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165501     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.864796000 -0300
+Modify: 2021-01-17 22:55:19.784917000 -0300
+Change: 2022-11-22 13:34:43.823542700 -0300
+ Birth: -  File: ./source/Textures/AppBar.png
+  Size: 360       	Blocks: 1          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 1165590     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-13 18:21:17.982991000 -0300
+Modify: 2021-01-06 02:21:58.038789000 -0300
+Change: 2022-11-22 13:34:44.140283400 -0300
+ Birth: -  File: ./Tasks.txt
+  Size: 1363      	Blocks: 8          IO Block: 4096   regular file
+Device: 824h/2084d	Inode: 974996      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-22 15:39:28.396389800 -0300
+Modify: 2021-01-17 22:55:53.792694000 -0300
+Change: 2022-11-22 13:34:42.636258100 -0300
+ Birth: -
