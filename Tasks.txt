@@ -4,6 +4,7 @@
 * Improved code grouping (with issues, putting the phrase mode as default)
 
 Migrate from XML to JSON
+/media/daniell/Windows 10 main1/Peeper
 Import from Peepeth and Fritter
 Post listing
 Edit posts
