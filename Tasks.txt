@@ -9,6 +9,7 @@ Import from Peepeth and Fritter
 Post listing
 Edit posts
 
+Guttye mode
 HTML header
 HTML post-type switcher, with tooltips on tab menu
 "Beta" label
